@@ -8,6 +8,10 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
+/**
+ * Klasa zapewniająca funkcjonalności do wczytywania plików
+ * wejściowych z danymi niezbędnymi do symulacji
+ */
 public class DataFilesReader {
 
     /**

@@ -4,6 +4,12 @@ import pl.edu.pwr.hyartsev.jp.lab02.criterion.Criterion;
 
 import java.util.Random;
 
+/**
+ * Główna klasa realizująca logikę wyżarzania.
+ * Przyjmuję dane wejściowe, takie jak temperaturę początkową
+ * i końcową symulacji oraz szybkość chłodzenia i długość epoki.
+ * Posiada konstruktor z parametrami domyślnymi (rekomendowanymi)
+ */
 public class SimulatedAnnealingOptimizer implements Optimizer{
     private final double initialTemp;
     private final double minTemp;
@@ -11,10 +17,21 @@ public class SimulatedAnnealingOptimizer implements Optimizer{
     private final int epochLength;
     private final Random random;
 
-    private SimulatedAnnealingOptimizer(){
+    /**
+     * Konstruktor z danymi domyślnymi
+     */
+    public SimulatedAnnealingOptimizer(){
         this(0.65, 1e-5, 0.99, 50, new Random());
     }
 
+    /**
+     * Konstruktor pozwalający na własnoręczne ustawienie
+     * @param initialTemp początkowa temperatura w symulacji
+     * @param minTemp minimalna temperatura działania symulacji
+     * @param coolingRate wskaźnik chłodzenia
+     * @param epochLength długość epoki wykonanych mutacji przy tej samej temp
+     * @param random zewnętrzny generator losowości
+     */
     public SimulatedAnnealingOptimizer(double initialTemp, double minTemp,
                                        double coolingRate, int epochLength,
                                        Random random) {
