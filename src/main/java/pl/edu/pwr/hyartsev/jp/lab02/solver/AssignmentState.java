@@ -174,12 +174,26 @@ public class AssignmentState {
         Fan fanB = assignedFans[roomIdxB];
 
         // sprawdza cza pasują rozmiary
-        if(fanA.connectorSize() > rooms.get(roomIdxB).slotSize()) return false;
-        if(fanB.connectorSize() > rooms.get(roomIdxA).slotSize()) return false;
+        if(fanA == null || fanA.connectorSize() > rooms.get(roomIdxB).slotSize()) return false;
+        if(fanB == null || fanB.connectorSize() > rooms.get(roomIdxA).slotSize()) return false;
         // zamienia miejscami
         assignedFans[roomIdxA] = fanB;
         assignedFans[roomIdxB] = fanA;
         return true;
+    }
+
+    /**
+     * Zwraca pełną listę wszystkich wentylatorów w problemie
+     * (zarówno aktualnie zamontowanych, jak i wolnych w magazynie).
+     */
+    public List<Fan> getAllFans() {
+        List<Fan> all = new ArrayList<>(freeFans);
+        for (Fan fan : assignedFans) {
+            if (fan != null) {
+                all.add(fan);
+            }
+        }
+        return all;
     }
 
     /** Metoda pomocnicza.

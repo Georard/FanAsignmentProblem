@@ -30,7 +30,7 @@ public class VolumeMatchMinCostCriterion implements Criterion{
         double normalizedDiff = diff / totalBuildingVolume;
         double normalizedCost = state.getTotalCost() / maxPossibleCost;
 
-        return (-diffWeight * normalizedDiff) + (costWeight * normalizedCost);
+        return (diffWeight * normalizedDiff) + (costWeight * normalizedCost);
     }
 
     @Override

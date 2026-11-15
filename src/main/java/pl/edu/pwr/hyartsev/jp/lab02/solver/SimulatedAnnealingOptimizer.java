@@ -19,9 +19,11 @@ public class SimulatedAnnealingOptimizer implements Optimizer{
 
     /**
      * Konstruktor z danymi domyślnymi
+     * Uwaga, potrzebuję wiedzieć o ilości pokoi, żeby jak najlepiej
+     * dopasować ilość epoch
      */
-    public SimulatedAnnealingOptimizer(){
-        this(0.65, 1e-5, 0.99, 50, new Random());
+    public SimulatedAnnealingOptimizer(int n){
+        this(0.65, 1e-5, 0.995, Math.max(10, n * 2), new Random());
     }
 
     /**

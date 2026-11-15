@@ -49,13 +49,13 @@ public class Main {
             w2 = Double.parseDouble(args[4]);
         } else {
             Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-            System.out.print("Podaj ścieżkę do pliku z pomieszczeniami (domyślnie: rooms.txt): ");
+            System.out.print("Podaj ścieżkę do pliku z pomieszczeniami (domyślnie: pomieszczenia.txt): ");
             String roomsInput = scanner.nextLine().trim();
-            roomsPath = roomsInput.isEmpty() ? "rooms.txt" : roomsInput;
+            roomsPath = roomsInput.isEmpty() ? "pomieszczenia.txt" : roomsInput;
 
-            System.out.print("Podaj ścieżkę do pliku z wentylatorami [domyślnie: fans.txt]: ");
-            String fInput = scanner.nextLine().trim();
-            fansPath = fInput.isEmpty() ? "fans.txt" : fInput;
+            System.out.print("Podaj ścieżkę do pliku z wentylatorami (domyślnie: wentylatory.txt): ");
+            String fansInput = scanner.nextLine().trim();
+            fansPath = fansInput.isEmpty() ? "wentylatory.txt" : fansInput;
 
             System.out.println("Wybierz kryterium:");
             System.out.println("  1 - Maksymalizacja przepływu powietrza i minimalizacja kosztów");
@@ -63,16 +63,19 @@ public class Main {
             System.out.print("Twój wybór (1 lub 2): ");
             criterionMode = Integer.parseInt(scanner.nextLine().trim());
 
-            System.out.print("Podaj wagę w1 (dla przepływu/kubatury, np. 0.7): ");
-            w1 = Double.parseDouble(scanner.nextLine().trim().replace(',', '.'));
+            System.out.print("Podaj wagę w1 (dla przepływu/kubatury, domyślnie 0.7): ");
+            String w1Input = scanner.nextLine().trim().replace(',', '.');
+            w1 = w1Input.isEmpty() ? 0.7 : Double.parseDouble(w1Input);
 
-            System.out.print("Podaj wagę w2 (dla kosztu, np. 0.3): ");
-            w2 = Double.parseDouble(scanner.nextLine().trim().replace(',', '.'));
+            System.out.print("Podaj wagę w2 (dla kosztu, domyślnie 0.3): ");
+            String w2Input = scanner.nextLine().trim().replace(',', '.');
+            w2 = w2Input.isEmpty() ? 0.3 : Double.parseDouble(w2Input);
         }
 
         try {
             // wczytanie danych wejściowych
             List<Room> rooms = DataFilesReader.readRooms(roomsPath);
+            int n = rooms.size();
             List<Fan> fans = DataFilesReader.readFans(fansPath);
 
             if (rooms.isEmpty()) {
@@ -81,12 +84,11 @@ public class Main {
             }
 
             // obliczenie stałych normalizacyjnych i utworzenie kryterium
-            int n = rooms.size();
-            double maxCost = NormalizationHelper.maxPossibleCost(fans, n);
+            double maxCost = NormalizationHelper.maxPossibleCost(rooms, fans);
             Criterion criterion;
 
             if (criterionMode == 1) {
-                double maxAirflow = NormalizationHelper.maxPossibleAirflow(fans, n);
+                double maxAirflow = NormalizationHelper.maxPossibleAirflow(rooms, fans);
                 criterion = new MaxFlowMinCostCriterion(w1, w2, maxAirflow, maxCost);
             } else if (criterionMode == 2) {
                 double totalVolume = NormalizationHelper.totalBuildingVolume(rooms);
@@ -98,7 +100,7 @@ public class Main {
 
             // uruchomienie optymalizacji (Symulowane Wyżarzanie)
             AssignmentState initialState = new AssignmentState(rooms, fans);
-            Optimizer optimizer = new SimulatedAnnealingOptimizer();
+            Optimizer optimizer = new SimulatedAnnealingOptimizer(n);
             AssignmentState bestSolution = optimizer.solve(initialState, criterion);
 
             // wypisanie planu montażu na konsolę i zapis do pliku

@@ -19,7 +19,11 @@ public class SolutionFileWriter {
 
     public static String formatReport(AssignmentState solution, Criterion criterion) {
         StringBuilder sb = new StringBuilder();
+
         List<Room> rooms = solution.getRooms();
+        List<Fan> allFans = solution.getAllFans();
+        int n = rooms.size();
+
         int totalVolume = NormalizationHelper.totalBuildingVolume(rooms);
         int totalAirflow = solution.getTotalAirflow();
         int totalCost = solution.getTotalCost();
@@ -34,7 +38,12 @@ public class SolutionFileWriter {
         sb.append(String.format("Kubatura wszystkich pomieszczeń: %d m3\n", totalVolume));
         sb.append(String.format("Całkowity przepływ powietrza:    %d m3/h (różnica: %d)\n",
                 totalAirflow, Math.abs(totalAirflow - totalVolume)));
-        sb.append(String.format("Całkowity koszt wentylatorów:    %d\n", totalCost));
+        sb.append(String.format("Całkowity koszt wentylatorów:    %d\n",
+                totalCost));
+        sb.append(String.format("Maksymalny teoretyczny koszt wentylatorów:    %d\n",
+                NormalizationHelper.maxPossibleCost(rooms, allFans)));
+        sb.append(String.format("Maksymalna teoretyczna wydajność wentylatorów:    %d m3/h\n",
+                NormalizationHelper.maxPossibleAirflow(rooms, allFans)));
         sb.append("-----------------------------------------------------------------\n");
         sb.append(String.format("%-10s | %-13s | %-10s | %-25s\n",
                 "Pokój ID", "Kubatura [m3]", "Złącze [U]", "Zamontowany wentylator"));
