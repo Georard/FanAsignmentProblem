@@ -98,8 +98,8 @@ public class DataGenerator {
     // Szybkie wygenerowanie plików bez uruchamiania głównej aplikacji
     public static void main(String[] args) {
         try {
-            int nRooms = 1000;
-            int nFans = 3000;
+            int nRooms = 100;
+            int nFans = 300;
             generateTestData("pomieszczenia.txt", "wentylatory.txt", nRooms, nFans, 42L);
             System.out.format("Wygenerowano pliki: pomieszczenia.txt (%d) oraz wentylatory.txt (%d).", nRooms, nFans);
         } catch (IOException e) {

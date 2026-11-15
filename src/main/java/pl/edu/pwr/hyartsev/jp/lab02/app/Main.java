@@ -13,6 +13,8 @@ import pl.edu.pwr.hyartsev.jp.lab02.utils.DataFilesReader;
 import pl.edu.pwr.hyartsev.jp.lab02.utils.SolutionFileWriter;
 
 import java.io.IOException;
+import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
@@ -40,13 +42,16 @@ public class Main {
         double w1;
         double w2;
 
+        // Wymuszenie kodowania UTF-8 dla wypisywania w konsoli
+        System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
+        System.setErr(new PrintStream(System.err, true, StandardCharsets.UTF_8));
         // Pobranie parametrów z linii komend lub interaktywnie z konsoli
         if (args.length >= 5) {
             roomsPath = args[0];
             fansPath = args[1];
             criterionMode = Integer.parseInt(args[2]);
-            w1 = Double.parseDouble(args[3]);
-            w2 = Double.parseDouble(args[4]);
+            w1 = Double.parseDouble(args[3].replace(',', '.'));
+            w2 = Double.parseDouble(args[4].replace(',', '.'));
         } else {
             Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
             System.out.print("Podaj ścieżkę do pliku z pomieszczeniami (domyślnie: pomieszczenia.txt): ");

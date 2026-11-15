@@ -1,1017 +1,117 @@
 =================================================================
                  PLAN MONTAŻU WENTYLATORÓW
 =================================================================
-Kryterium: Dopasowanie do kubatury budynku (185030 m3) i minimalizacja kosztu (w1=0,40, w2=0,60)
-Osiągnięta wartość funkcji celu: 0,247946
+Kryterium: Dopasowanie do kubatury budynku (18460 m3) i minimalizacja kosztu (w1=0,30, w2=0,70)
+Osiągnięta wartość funkcji celu: 0,294661
 -----------------------------------------------------------------
-Kubatura wszystkich pomieszczeń: 185030 m3
-Całkowity przepływ powietrza:    185005 m3/h (różnica: 25)
-Całkowity koszt wentylatorów:    219351
-Maksymalny teoretyczny koszt wentylatorów:    530920
-Maksymalna teoretyczna wydajność wentylatorów:    280910 m3/h
+Kubatura wszystkich pomieszczeń: 18460 m3
+Całkowity przepływ powietrza:    5530 m3/h (różnica: 12930)
+Całkowity koszt wentylatorów:    6106
+Maksymalny teoretyczny koszt wentylatorów:    50564
+Maksymalna teoretyczna wydajność wentylatorów:    26865 m3/h
 -----------------------------------------------------------------
 Pokój ID   | Kubatura [m3] | Złącze [U] | Zamontowany wentylator   
 -----------------------------------------------------------------
-1          | 70            | 1          | ID: 2805 (wyd: 95 m3/h, 1U, koszt: 115)
-2          | 230           | 2          | ID: 1024 (wyd: 255 m3/h, 2U, koszt: 336)
-3          | 220           | 3          | ID: 1058 (wyd: 325 m3/h, 3U, koszt: 326)
-4          | 110           | 1          | ID: 588 (wyd: 115 m3/h, 1U, koszt: 131)
+1          | 70            | 1          | BRAK
+2          | 230           | 2          | BRAK
+3          | 220           | 3          | ID: 260 (wyd: 305 m3/h, 3U, koszt: 353)
+4          | 110           | 1          | BRAK
 5          | 40            | 1          | BRAK
-6          | 210           | 3          | ID: 1851 (wyd: 310 m3/h, 3U, koszt: 341)
-7          | 320           | 3          | ID: 759 (wyd: 295 m3/h, 3U, koszt: 382)
-8          | 260           | 3          | ID: 1281 (wyd: 360 m3/h, 3U, koszt: 438)
-9          | 120           | 2          | ID: 2268 (wyd: 105 m3/h, 1U, koszt: 107)
-10         | 210           | 2          | ID: 1715 (wyd: 150 m3/h, 2U, koszt: 165)
-11         | 40            | 1          | ID: 2146 (wyd: 125 m3/h, 1U, koszt: 162)
-12         | 110           | 1          | ID: 1168 (wyd: 55 m3/h, 1U, koszt: 89)
-13         | 230           | 2          | ID: 2713 (wyd: 265 m3/h, 2U, koszt: 370)
-14         | 80            | 1          | ID: 1903 (wyd: 105 m3/h, 1U, koszt: 117)
-15         | 220           | 3          | ID: 188 (wyd: 270 m3/h, 3U, koszt: 333)
+6          | 210           | 3          | BRAK
+7          | 320           | 3          | BRAK
+8          | 260           | 3          | BRAK
+9          | 120           | 2          | ID: 141 (wyd: 135 m3/h, 1U, koszt: 133)
+10         | 210           | 2          | BRAK
+11         | 40            | 1          | BRAK
+12         | 110           | 1          | BRAK
+13         | 230           | 2          | BRAK
+14         | 80            | 1          | BRAK
+15         | 220           | 3          | BRAK
 16         | 80            | 1          | BRAK
-17         | 110           | 1          | ID: 912 (wyd: 130 m3/h, 1U, koszt: 171)
-18         | 80            | 1          | ID: 2854 (wyd: 65 m3/h, 1U, koszt: 92)
-19         | 100           | 1          | ID: 2035 (wyd: 80 m3/h, 1U, koszt: 89)
+17         | 110           | 1          | BRAK
+18         | 80            | 1          | BRAK
+19         | 100           | 1          | BRAK
 20         | 60            | 1          | BRAK
-21         | 310           | 3          | BRAK
-22         | 60            | 1          | ID: 2528 (wyd: 55 m3/h, 1U, koszt: 76)
-23         | 300           | 3          | ID: 1409 (wyd: 420 m3/h, 3U, koszt: 463)
-24         | 80            | 1          | ID: 2407 (wyd: 60 m3/h, 1U, koszt: 77)
-25         | 230           | 2          | ID: 2918 (wyd: 240 m3/h, 2U, koszt: 265)
-26         | 350           | 4          | ID: 469 (wyd: 395 m3/h, 3U, koszt: 449)
-27         | 150           | 2          | ID: 2173 (wyd: 125 m3/h, 1U, koszt: 143)
-28         | 230           | 2          | ID: 2779 (wyd: 60 m3/h, 1U, koszt: 92)
-29         | 90            | 1          | ID: 1383 (wyd: 130 m3/h, 1U, koszt: 165)
-30         | 220           | 2          | ID: 1002 (wyd: 245 m3/h, 2U, koszt: 326)
-31         | 360           | 4          | ID: 935 (wyd: 635 m3/h, 4U, koszt: 664)
+21         | 310           | 3          | ID: 28 (wyd: 410 m3/h, 3U, koszt: 460)
+22         | 60            | 1          | BRAK
+23         | 300           | 3          | BRAK
+24         | 80            | 1          | BRAK
+25         | 230           | 2          | BRAK
+26         | 350           | 4          | BRAK
+27         | 150           | 2          | BRAK
+28         | 230           | 2          | BRAK
+29         | 90            | 1          | BRAK
+30         | 220           | 2          | BRAK
+31         | 360           | 4          | ID: 255 (wyd: 625 m3/h, 4U, koszt: 732)
 32         | 110           | 2          | BRAK
-33         | 510           | 4          | ID: 2198 (wyd: 460 m3/h, 4U, koszt: 543)
-34         | 340           | 4          | ID: 2885 (wyd: 580 m3/h, 4U, koszt: 641)
-35         | 330           | 3          | ID: 1641 (wyd: 390 m3/h, 3U, koszt: 581)
-36         | 450           | 4          | ID: 1635 (wyd: 575 m3/h, 4U, koszt: 674)
-37         | 210           | 2          | ID: 183 (wyd: 165 m3/h, 2U, koszt: 188)
-38         | 360           | 3          | ID: 2780 (wyd: 440 m3/h, 3U, koszt: 526)
+33         | 510           | 4          | BRAK
+34         | 340           | 4          | BRAK
+35         | 330           | 3          | BRAK
+36         | 450           | 4          | ID: 164 (wyd: 275 m3/h, 2U, koszt: 272)
+37         | 210           | 2          | BRAK
+38         | 360           | 3          | BRAK
 39         | 310           | 3          | BRAK
 40         | 70            | 1          | BRAK
-41         | 110           | 1          | ID: 420 (wyd: 125 m3/h, 1U, koszt: 187)
-42         | 110           | 1          | ID: 107 (wyd: 125 m3/h, 1U, koszt: 210)
-43         | 90            | 1          | ID: 1663 (wyd: 95 m3/h, 1U, koszt: 114)
+41         | 110           | 1          | BRAK
+42         | 110           | 1          | ID: 50 (wyd: 90 m3/h, 1U, koszt: 101)
+43         | 90            | 1          | BRAK
 44         | 40            | 1          | BRAK
-45         | 500           | 4          | ID: 1162 (wyd: 325 m3/h, 3U, koszt: 351)
-46         | 220           | 2          | ID: 852 (wyd: 230 m3/h, 2U, koszt: 239)
+45         | 500           | 4          | ID: 32 (wyd: 655 m3/h, 4U, koszt: 681)
+46         | 220           | 2          | ID: 236 (wyd: 150 m3/h, 2U, koszt: 156)
 47         | 70            | 1          | BRAK
-48         | 140           | 2          | ID: 1834 (wyd: 170 m3/h, 2U, koszt: 237)
-49         | 100           | 1          | ID: 2102 (wyd: 105 m3/h, 1U, koszt: 130)
-50         | 200           | 3          | ID: 1211 (wyd: 265 m3/h, 3U, koszt: 298)
-51         | 260           | 3          | ID: 2592 (wyd: 315 m3/h, 3U, koszt: 329)
-52         | 80            | 1          | ID: 248 (wyd: 60 m3/h, 1U, koszt: 64)
-53         | 360           | 3          | ID: 2716 (wyd: 250 m3/h, 3U, koszt: 325)
-54         | 50            | 1          | ID: 635 (wyd: 50 m3/h, 1U, koszt: 59)
-55         | 340           | 3          | ID: 1023 (wyd: 395 m3/h, 3U, koszt: 501)
-56         | 100           | 2          | ID: 2413 (wyd: 250 m3/h, 2U, koszt: 267)
-57         | 540           | 4          | ID: 294 (wyd: 680 m3/h, 4U, koszt: 717)
+48         | 140           | 2          | BRAK
+49         | 100           | 1          | ID: 90 (wyd: 130 m3/h, 1U, koszt: 146)
+50         | 200           | 3          | BRAK
+51         | 260           | 3          | BRAK
+52         | 80            | 1          | BRAK
+53         | 360           | 3          | ID: 23 (wyd: 275 m3/h, 2U, koszt: 318)
+54         | 50            | 1          | BRAK
+55         | 340           | 3          | BRAK
+56         | 100           | 2          | BRAK
+57         | 540           | 4          | ID: 165 (wyd: 575 m3/h, 4U, koszt: 659)
 58         | 110           | 1          | BRAK
-59         | 110           | 1          | ID: 401 (wyd: 50 m3/h, 1U, koszt: 82)
-60         | 70            | 1          | ID: 1450 (wyd: 90 m3/h, 1U, koszt: 125)
-61         | 150           | 2          | ID: 1681 (wyd: 200 m3/h, 2U, koszt: 254)
-62         | 100           | 2          | ID: 2072 (wyd: 225 m3/h, 2U, koszt: 274)
-63         | 110           | 2          | ID: 313 (wyd: 270 m3/h, 2U, koszt: 344)
+59         | 110           | 1          | BRAK
+60         | 70            | 1          | BRAK
+61         | 150           | 2          | BRAK
+62         | 100           | 2          | BRAK
+63         | 110           | 2          | BRAK
 64         | 80            | 1          | BRAK
-65         | 110           | 1          | ID: 1003 (wyd: 60 m3/h, 1U, koszt: 86)
-66         | 190           | 2          | ID: 82 (wyd: 270 m3/h, 2U, koszt: 345)
-67         | 90            | 1          | ID: 2921 (wyd: 50 m3/h, 1U, koszt: 72)
-68         | 340           | 3          | ID: 2298 (wyd: 270 m3/h, 3U, koszt: 285)
-69         | 90            | 1          | ID: 540 (wyd: 130 m3/h, 1U, koszt: 157)
-70         | 100           | 1          | ID: 179 (wyd: 110 m3/h, 1U, koszt: 159)
-71         | 370           | 3          | ID: 1033 (wyd: 260 m3/h, 3U, koszt: 278)
-72         | 60            | 1          | ID: 2984 (wyd: 115 m3/h, 1U, koszt: 152)
+65         | 110           | 1          | BRAK
+66         | 190           | 2          | ID: 275 (wyd: 70 m3/h, 1U, koszt: 82)
+67         | 90            | 1          | BRAK
+68         | 340           | 3          | ID: 280 (wyd: 175 m3/h, 2U, koszt: 186)
+69         | 90            | 1          | BRAK
+70         | 100           | 1          | BRAK
+71         | 370           | 3          | BRAK
+72         | 60            | 1          | BRAK
 73         | 70            | 1          | BRAK
-74         | 320           | 3          | ID: 1912 (wyd: 415 m3/h, 3U, koszt: 468)
+74         | 320           | 3          | ID: 157 (wyd: 365 m3/h, 3U, koszt: 365)
 75         | 150           | 2          | BRAK
-76         | 100           | 1          | ID: 1772 (wyd: 120 m3/h, 1U, koszt: 119)
+76         | 100           | 1          | ID: 94 (wyd: 130 m3/h, 1U, koszt: 146)
 77         | 60            | 1          | BRAK
-78         | 280           | 3          | ID: 2541 (wyd: 305 m3/h, 3U, koszt: 326)
+78         | 280           | 3          | BRAK
 79         | 120           | 1          | BRAK
 80         | 150           | 2          | BRAK
-81         | 330           | 3          | ID: 539 (wyd: 240 m3/h, 2U, koszt: 244)
+81         | 330           | 3          | BRAK
 82         | 180           | 2          | BRAK
 83         | 150           | 2          | BRAK
-84         | 40            | 1          | ID: 1914 (wyd: 115 m3/h, 1U, koszt: 134)
-85         | 60            | 1          | ID: 942 (wyd: 80 m3/h, 1U, koszt: 91)
-86         | 120           | 1          | ID: 2577 (wyd: 105 m3/h, 1U, koszt: 159)
-87         | 190           | 2          | ID: 838 (wyd: 185 m3/h, 2U, koszt: 198)
-88         | 40            | 1          | ID: 2600 (wyd: 115 m3/h, 1U, koszt: 185)
-89         | 40            | 1          | ID: 1351 (wyd: 65 m3/h, 1U, koszt: 88)
-90         | 100           | 1          | BRAK
-91         | 220           | 2          | ID: 1815 (wyd: 215 m3/h, 2U, koszt: 229)
+84         | 40            | 1          | BRAK
+85         | 60            | 1          | BRAK
+86         | 120           | 1          | BRAK
+87         | 190           | 2          | BRAK
+88         | 40            | 1          | BRAK
+89         | 40            | 1          | BRAK
+90         | 100           | 1          | ID: 40 (wyd: 130 m3/h, 1U, koszt: 150)
+91         | 220           | 2          | ID: 172 (wyd: 125 m3/h, 1U, koszt: 145)
 92         | 90            | 1          | BRAK
-93         | 250           | 3          | ID: 2983 (wyd: 400 m3/h, 3U, koszt: 539)
+93         | 250           | 3          | ID: 202 (wyd: 420 m3/h, 3U, koszt: 484)
 94         | 80            | 1          | BRAK
-95         | 450           | 4          | ID: 171 (wyd: 500 m3/h, 4U, koszt: 519)
-96         | 320           | 4          | ID: 1982 (wyd: 640 m3/h, 4U, koszt: 748)
-97         | 220           | 2          | ID: 2408 (wyd: 170 m3/h, 2U, koszt: 233)
-98         | 210           | 2          | ID: 787 (wyd: 230 m3/h, 2U, koszt: 297)
-99         | 330           | 3          | ID: 2446 (wyd: 345 m3/h, 3U, koszt: 474)
-100        | 430           | 4          | ID: 1878 (wyd: 600 m3/h, 4U, koszt: 703)
-101        | 120           | 1          | ID: 311 (wyd: 50 m3/h, 1U, koszt: 73)
-102        | 280           | 3          | ID: 2037 (wyd: 190 m3/h, 2U, koszt: 233)
-103        | 200           | 2          | ID: 2061 (wyd: 145 m3/h, 2U, koszt: 170)
-104        | 100           | 1          | ID: 1477 (wyd: 110 m3/h, 1U, koszt: 112)
-105        | 120           | 2          | BRAK
-106        | 110           | 2          | ID: 1213 (wyd: 255 m3/h, 2U, koszt: 312)
-107        | 350           | 3          | ID: 2107 (wyd: 410 m3/h, 3U, koszt: 494)
-108        | 390           | 4          | ID: 2695 (wyd: 535 m3/h, 4U, koszt: 595)
-109        | 150           | 2          | ID: 1503 (wyd: 210 m3/h, 2U, koszt: 215)
-110        | 210           | 3          | ID: 653 (wyd: 340 m3/h, 3U, koszt: 409)
-111        | 310           | 3          | BRAK
-112        | 110           | 1          | ID: 2712 (wyd: 95 m3/h, 1U, koszt: 120)
-113        | 370           | 3          | ID: 1649 (wyd: 250 m3/h, 2U, koszt: 339)
-114        | 80            | 1          | BRAK
-115        | 330           | 3          | ID: 1938 (wyd: 420 m3/h, 3U, koszt: 429)
-116        | 60            | 1          | BRAK
-117        | 50            | 1          | ID: 51 (wyd: 100 m3/h, 1U, koszt: 128)
-118        | 110           | 2          | ID: 2017 (wyd: 265 m3/h, 2U, koszt: 277)
-119        | 240           | 3          | ID: 1969 (wyd: 390 m3/h, 3U, koszt: 420)
-120        | 110           | 2          | ID: 242 (wyd: 205 m3/h, 2U, koszt: 288)
-121        | 200           | 3          | BRAK
-122        | 100           | 1          | ID: 1859 (wyd: 110 m3/h, 1U, koszt: 152)
-123        | 290           | 3          | ID: 2671 (wyd: 385 m3/h, 3U, koszt: 380)
-124        | 180           | 2          | ID: 2955 (wyd: 175 m3/h, 2U, koszt: 238)
-125        | 60            | 1          | ID: 2149 (wyd: 50 m3/h, 1U, koszt: 65)
-126        | 450           | 4          | ID: 845 (wyd: 435 m3/h, 4U, koszt: 496)
-127        | 200           | 3          | ID: 995 (wyd: 300 m3/h, 3U, koszt: 323)
-128        | 110           | 2          | BRAK
-129        | 110           | 2          | ID: 1341 (wyd: 180 m3/h, 2U, koszt: 223)
-130        | 100           | 1          | ID: 2288 (wyd: 70 m3/h, 1U, koszt: 126)
-131        | 230           | 2          | ID: 43 (wyd: 150 m3/h, 2U, koszt: 180)
-132        | 130           | 2          | BRAK
-133        | 110           | 2          | BRAK
-134        | 130           | 2          | BRAK
-135        | 540           | 4          | ID: 2435 (wyd: 580 m3/h, 4U, koszt: 660)
-136        | 340           | 4          | ID: 2158 (wyd: 435 m3/h, 4U, koszt: 513)
-137        | 210           | 3          | BRAK
-138        | 70            | 1          | ID: 1301 (wyd: 85 m3/h, 1U, koszt: 110)
-139        | 360           | 3          | ID: 323 (wyd: 405 m3/h, 3U, koszt: 453)
-140        | 180           | 2          | ID: 1547 (wyd: 185 m3/h, 2U, koszt: 220)
-141        | 100           | 2          | ID: 285 (wyd: 85 m3/h, 1U, koszt: 112)
-142        | 230           | 2          | BRAK
-143        | 100           | 1          | ID: 467 (wyd: 80 m3/h, 1U, koszt: 105)
-144        | 90            | 1          | ID: 155 (wyd: 90 m3/h, 1U, koszt: 119)
-145        | 40            | 1          | ID: 2532 (wyd: 60 m3/h, 1U, koszt: 71)
-146        | 140           | 2          | ID: 1881 (wyd: 180 m3/h, 2U, koszt: 242)
-147        | 50            | 1          | BRAK
-148        | 60            | 1          | ID: 797 (wyd: 95 m3/h, 1U, koszt: 150)
-149        | 200           | 2          | ID: 1652 (wyd: 230 m3/h, 2U, koszt: 238)
-150        | 220           | 2          | ID: 1835 (wyd: 270 m3/h, 2U, koszt: 362)
-151        | 230           | 2          | ID: 2245 (wyd: 80 m3/h, 1U, koszt: 83)
-152        | 50            | 1          | BRAK
-153        | 140           | 2          | ID: 806 (wyd: 145 m3/h, 2U, koszt: 185)
-154        | 100           | 1          | BRAK
-155        | 140           | 2          | BRAK
-156        | 130           | 2          | BRAK
-157        | 220           | 3          | BRAK
-158        | 220           | 2          | ID: 1721 (wyd: 95 m3/h, 1U, koszt: 114)
-159        | 200           | 2          | ID: 618 (wyd: 195 m3/h, 2U, koszt: 252)
-160        | 40            | 1          | BRAK
-161        | 220           | 3          | ID: 1493 (wyd: 300 m3/h, 3U, koszt: 350)
-162        | 480           | 4          | ID: 514 (wyd: 565 m3/h, 4U, koszt: 572)
-163        | 320           | 3          | ID: 176 (wyd: 430 m3/h, 3U, koszt: 505)
-164        | 60            | 1          | ID: 1575 (wyd: 90 m3/h, 1U, koszt: 117)
-165        | 370           | 3          | ID: 2827 (wyd: 370 m3/h, 3U, koszt: 442)
-166        | 170           | 2          | ID: 578 (wyd: 255 m3/h, 2U, koszt: 319)
-167        | 230           | 2          | BRAK
-168        | 60            | 1          | ID: 856 (wyd: 75 m3/h, 1U, koszt: 100)
-169        | 160           | 2          | ID: 405 (wyd: 65 m3/h, 1U, koszt: 70)
-170        | 220           | 3          | ID: 948 (wyd: 430 m3/h, 3U, koszt: 548)
-171        | 80            | 1          | BRAK
-172        | 40            | 1          | ID: 351 (wyd: 130 m3/h, 1U, koszt: 176)
-173        | 40            | 1          | BRAK
-174        | 150           | 2          | ID: 1722 (wyd: 180 m3/h, 2U, koszt: 184)
-175        | 130           | 2          | BRAK
-176        | 70            | 1          | ID: 2296 (wyd: 70 m3/h, 1U, koszt: 81)
-177        | 170           | 2          | BRAK
-178        | 210           | 2          | BRAK
-179        | 40            | 1          | ID: 2312 (wyd: 55 m3/h, 1U, koszt: 93)
-180        | 60            | 1          | ID: 961 (wyd: 130 m3/h, 1U, koszt: 143)
-181        | 110           | 1          | ID: 1838 (wyd: 70 m3/h, 1U, koszt: 82)
-182        | 260           | 3          | ID: 130 (wyd: 315 m3/h, 3U, koszt: 384)
-183        | 100           | 2          | ID: 1520 (wyd: 200 m3/h, 2U, koszt: 252)
-184        | 170           | 2          | ID: 2081 (wyd: 270 m3/h, 2U, koszt: 317)
-185        | 340           | 4          | ID: 989 (wyd: 500 m3/h, 4U, koszt: 589)
-186        | 420           | 4          | ID: 819 (wyd: 505 m3/h, 4U, koszt: 634)
-187        | 90            | 1          | ID: 2859 (wyd: 100 m3/h, 1U, koszt: 123)
-188        | 120           | 2          | ID: 633 (wyd: 240 m3/h, 2U, koszt: 276)
-189        | 70            | 1          | ID: 438 (wyd: 130 m3/h, 1U, koszt: 152)
-190        | 200           | 2          | BRAK
-191        | 90            | 1          | BRAK
-192        | 190           | 2          | ID: 2908 (wyd: 135 m3/h, 2U, koszt: 159)
-193        | 60            | 1          | BRAK
-194        | 440           | 4          | ID: 1980 (wyd: 645 m3/h, 4U, koszt: 676)
-195        | 70            | 1          | BRAK
-196        | 70            | 1          | ID: 1629 (wyd: 85 m3/h, 1U, koszt: 130)
-197        | 180           | 2          | ID: 2942 (wyd: 170 m3/h, 2U, koszt: 204)
-198        | 230           | 2          | ID: 2169 (wyd: 250 m3/h, 2U, koszt: 263)
-199        | 40            | 1          | ID: 889 (wyd: 130 m3/h, 1U, koszt: 186)
-200        | 430           | 4          | ID: 1129 (wyd: 405 m3/h, 4U, koszt: 488)
-201        | 420           | 4          | ID: 1248 (wyd: 590 m3/h, 4U, koszt: 672)
-202        | 210           | 2          | ID: 791 (wyd: 170 m3/h, 2U, koszt: 176)
-203        | 240           | 3          | ID: 925 (wyd: 310 m3/h, 3U, koszt: 357)
-204        | 180           | 2          | ID: 572 (wyd: 240 m3/h, 2U, koszt: 337)
-205        | 90            | 1          | ID: 2427 (wyd: 80 m3/h, 1U, koszt: 90)
-206        | 50            | 1          | BRAK
-207        | 100           | 1          | ID: 2499 (wyd: 75 m3/h, 1U, koszt: 128)
-208        | 90            | 1          | BRAK
-209        | 90            | 1          | ID: 1407 (wyd: 75 m3/h, 1U, koszt: 91)
-210        | 110           | 1          | BRAK
-211        | 220           | 2          | ID: 1234 (wyd: 260 m3/h, 2U, koszt: 265)
-212        | 520           | 4          | ID: 1059 (wyd: 425 m3/h, 4U, koszt: 463)
-213        | 230           | 3          | ID: 1192 (wyd: 365 m3/h, 3U, koszt: 463)
-214        | 180           | 2          | ID: 2411 (wyd: 250 m3/h, 2U, koszt: 259)
-215        | 80            | 1          | BRAK
-216        | 100           | 2          | ID: 917 (wyd: 155 m3/h, 2U, koszt: 210)
-217        | 50            | 1          | BRAK
-218        | 340           | 3          | ID: 230 (wyd: 435 m3/h, 3U, koszt: 585)
-219        | 220           | 3          | ID: 138 (wyd: 440 m3/h, 3U, koszt: 487)
-220        | 110           | 1          | BRAK
-221        | 240           | 2          | ID: 1408 (wyd: 210 m3/h, 2U, koszt: 211)
-222        | 320           | 4          | ID: 1330 (wyd: 530 m3/h, 4U, koszt: 598)
-223        | 540           | 4          | ID: 2701 (wyd: 500 m3/h, 4U, koszt: 559)
-224        | 210           | 2          | ID: 2199 (wyd: 190 m3/h, 2U, koszt: 209)
-225        | 110           | 1          | ID: 2565 (wyd: 70 m3/h, 1U, koszt: 74)
-226        | 100           | 1          | ID: 1963 (wyd: 70 m3/h, 1U, koszt: 130)
-227        | 150           | 2          | ID: 616 (wyd: 165 m3/h, 2U, koszt: 230)
-228        | 350           | 4          | ID: 840 (wyd: 575 m3/h, 4U, koszt: 583)
-229        | 190           | 2          | BRAK
-230        | 40            | 1          | ID: 2194 (wyd: 55 m3/h, 1U, koszt: 84)
-231        | 310           | 3          | ID: 1018 (wyd: 425 m3/h, 3U, koszt: 438)
-232        | 150           | 2          | ID: 492 (wyd: 225 m3/h, 2U, koszt: 254)
-233        | 40            | 1          | ID: 2916 (wyd: 125 m3/h, 1U, koszt: 163)
-234        | 220           | 2          | BRAK
-235        | 430           | 4          | ID: 2514 (wyd: 645 m3/h, 4U, koszt: 735)
-236        | 220           | 2          | BRAK
-237        | 140           | 2          | ID: 1185 (wyd: 140 m3/h, 2U, koszt: 180)
-238        | 80            | 1          | BRAK
-239        | 270           | 3          | ID: 1773 (wyd: 265 m3/h, 3U, koszt: 288)
-240        | 50            | 1          | ID: 2844 (wyd: 105 m3/h, 1U, koszt: 143)
-241        | 130           | 2          | ID: 50 (wyd: 195 m3/h, 2U, koszt: 248)
-242        | 220           | 2          | ID: 260 (wyd: 195 m3/h, 2U, koszt: 222)
-243        | 70            | 1          | ID: 552 (wyd: 110 m3/h, 1U, koszt: 142)
-244        | 270           | 3          | ID: 31 (wyd: 375 m3/h, 3U, koszt: 466)
-245        | 40            | 1          | BRAK
-246        | 380           | 4          | ID: 56 (wyd: 665 m3/h, 4U, koszt: 838)
-247        | 50            | 1          | ID: 1375 (wyd: 125 m3/h, 1U, koszt: 132)
-248        | 110           | 1          | ID: 9 (wyd: 125 m3/h, 1U, koszt: 134)
-249        | 350           | 3          | ID: 1770 (wyd: 165 m3/h, 2U, koszt: 220)
-250        | 40            | 1          | BRAK
-251        | 340           | 3          | ID: 2818 (wyd: 315 m3/h, 3U, koszt: 322)
-252        | 400           | 4          | ID: 2664 (wyd: 655 m3/h, 4U, koszt: 836)
-253        | 200           | 2          | ID: 1902 (wyd: 150 m3/h, 2U, koszt: 184)
-254        | 280           | 3          | ID: 2540 (wyd: 265 m3/h, 3U, koszt: 295)
-255        | 110           | 1          | ID: 1393 (wyd: 70 m3/h, 1U, koszt: 78)
-256        | 110           | 1          | BRAK
-257        | 380           | 3          | BRAK
-258        | 120           | 1          | ID: 2092 (wyd: 55 m3/h, 1U, koszt: 119)
-259        | 250           | 3          | ID: 2016 (wyd: 370 m3/h, 3U, koszt: 468)
-260        | 360           | 3          | BRAK
-261        | 220           | 2          | ID: 1048 (wyd: 270 m3/h, 2U, koszt: 403)
-262        | 60            | 1          | ID: 2233 (wyd: 60 m3/h, 1U, koszt: 98)
-263        | 100           | 1          | ID: 1275 (wyd: 80 m3/h, 1U, koszt: 113)
-264        | 180           | 2          | ID: 2395 (wyd: 210 m3/h, 2U, koszt: 237)
-265        | 50            | 1          | BRAK
-266        | 130           | 2          | ID: 1373 (wyd: 195 m3/h, 2U, koszt: 308)
-267        | 220           | 3          | ID: 399 (wyd: 300 m3/h, 3U, koszt: 328)
-268        | 40            | 1          | ID: 1908 (wyd: 105 m3/h, 1U, koszt: 154)
-269        | 470           | 4          | ID: 1686 (wyd: 475 m3/h, 4U, koszt: 549)
-270        | 80            | 1          | BRAK
-271        | 50            | 1          | BRAK
-272        | 110           | 1          | BRAK
-273        | 100           | 1          | BRAK
-274        | 300           | 3          | ID: 454 (wyd: 315 m3/h, 3U, koszt: 333)
-275        | 190           | 2          | ID: 1752 (wyd: 135 m3/h, 2U, koszt: 185)
-276        | 170           | 2          | ID: 1966 (wyd: 270 m3/h, 2U, koszt: 308)
-277        | 100           | 1          | ID: 2032 (wyd: 60 m3/h, 1U, koszt: 65)
-278        | 40            | 1          | BRAK
-279        | 100           | 1          | BRAK
-280        | 340           | 4          | ID: 1700 (wyd: 595 m3/h, 4U, koszt: 633)
-281        | 110           | 1          | ID: 705 (wyd: 60 m3/h, 1U, koszt: 80)
-282        | 60            | 1          | ID: 2272 (wyd: 80 m3/h, 1U, koszt: 101)
-283        | 40            | 1          | ID: 410 (wyd: 105 m3/h, 1U, koszt: 117)
-284        | 230           | 3          | ID: 549 (wyd: 425 m3/h, 3U, koszt: 513)
-285        | 180           | 2          | ID: 2878 (wyd: 225 m3/h, 2U, koszt: 303)
-286        | 190           | 2          | ID: 150 (wyd: 215 m3/h, 2U, koszt: 221)
-287        | 110           | 1          | ID: 380 (wyd: 75 m3/h, 1U, koszt: 108)
-288        | 120           | 2          | BRAK
-289        | 40            | 1          | BRAK
-290        | 190           | 2          | ID: 1899 (wyd: 225 m3/h, 2U, koszt: 251)
-291        | 40            | 1          | BRAK
-292        | 210           | 2          | BRAK
-293        | 370           | 4          | ID: 471 (wyd: 530 m3/h, 4U, koszt: 661)
-294        | 200           | 2          | ID: 2088 (wyd: 180 m3/h, 2U, koszt: 263)
-295        | 80            | 1          | ID: 264 (wyd: 55 m3/h, 1U, koszt: 75)
-296        | 350           | 3          | ID: 2866 (wyd: 390 m3/h, 3U, koszt: 539)
-297        | 40            | 1          | BRAK
-298        | 210           | 3          | ID: 1661 (wyd: 335 m3/h, 3U, koszt: 393)
-299        | 170           | 2          | ID: 2353 (wyd: 225 m3/h, 2U, koszt: 238)
-300        | 280           | 3          | ID: 1285 (wyd: 365 m3/h, 3U, koszt: 409)
-301        | 110           | 2          | ID: 903 (wyd: 275 m3/h, 2U, koszt: 355)
-302        | 170           | 2          | ID: 2751 (wyd: 235 m3/h, 2U, koszt: 246)
-303        | 110           | 1          | ID: 1427 (wyd: 135 m3/h, 1U, koszt: 153)
-304        | 80            | 1          | ID: 477 (wyd: 100 m3/h, 1U, koszt: 129)
-305        | 370           | 4          | ID: 1865 (wyd: 655 m3/h, 4U, koszt: 700)
-306        | 50            | 1          | BRAK
-307        | 100           | 1          | ID: 1979 (wyd: 125 m3/h, 1U, koszt: 162)
-308        | 340           | 3          | ID: 1769 (wyd: 330 m3/h, 3U, koszt: 423)
-309        | 250           | 3          | BRAK
-310        | 230           | 3          | ID: 763 (wyd: 150 m3/h, 2U, koszt: 217)
-311        | 400           | 4          | ID: 2602 (wyd: 630 m3/h, 4U, koszt: 791)
-312        | 100           | 1          | ID: 1711 (wyd: 65 m3/h, 1U, koszt: 84)
-313        | 100           | 1          | BRAK
-314        | 110           | 2          | BRAK
-315        | 180           | 2          | ID: 1392 (wyd: 215 m3/h, 2U, koszt: 274)
-316        | 230           | 2          | ID: 170 (wyd: 210 m3/h, 2U, koszt: 256)
-317        | 540           | 4          | ID: 2394 (wyd: 510 m3/h, 4U, koszt: 530)
-318        | 200           | 3          | ID: 774 (wyd: 395 m3/h, 3U, koszt: 510)
-319        | 510           | 4          | ID: 1669 (wyd: 310 m3/h, 3U, koszt: 438)
-320        | 230           | 2          | ID: 2192 (wyd: 220 m3/h, 2U, koszt: 279)
-321        | 230           | 2          | ID: 2834 (wyd: 165 m3/h, 2U, koszt: 183)
-322        | 490           | 4          | ID: 1659 (wyd: 280 m3/h, 3U, koszt: 312)
-323        | 50            | 1          | BRAK
-324        | 50            | 1          | ID: 920 (wyd: 65 m3/h, 1U, koszt: 69)
-325        | 300           | 3          | ID: 715 (wyd: 375 m3/h, 3U, koszt: 419)
-326        | 240           | 3          | ID: 2317 (wyd: 320 m3/h, 3U, koszt: 384)
-327        | 70            | 1          | BRAK
-328        | 90            | 1          | ID: 148 (wyd: 60 m3/h, 1U, koszt: 65)
-329        | 290           | 3          | ID: 2980 (wyd: 440 m3/h, 3U, koszt: 437)
-330        | 60            | 1          | ID: 1150 (wyd: 115 m3/h, 1U, koszt: 157)
-331        | 100           | 1          | ID: 116 (wyd: 55 m3/h, 1U, koszt: 76)
-332        | 210           | 3          | ID: 1205 (wyd: 365 m3/h, 3U, koszt: 387)
-333        | 420           | 4          | ID: 2935 (wyd: 560 m3/h, 4U, koszt: 663)
-334        | 320           | 3          | ID: 2651 (wyd: 305 m3/h, 3U, koszt: 348)
-335        | 320           | 3          | ID: 868 (wyd: 180 m3/h, 2U, koszt: 232)
-336        | 160           | 2          | BRAK
-337        | 520           | 4          | ID: 1198 (wyd: 435 m3/h, 4U, koszt: 438)
-338        | 70            | 1          | BRAK
-339        | 100           | 1          | BRAK
-340        | 70            | 1          | BRAK
-341        | 220           | 2          | ID: 2083 (wyd: 195 m3/h, 2U, koszt: 239)
-342        | 250           | 3          | ID: 2607 (wyd: 410 m3/h, 3U, koszt: 529)
-343        | 280           | 3          | ID: 452 (wyd: 280 m3/h, 3U, koszt: 303)
-344        | 410           | 4          | ID: 1668 (wyd: 410 m3/h, 4U, koszt: 419)
-345        | 120           | 2          | ID: 2925 (wyd: 280 m3/h, 2U, koszt: 373)
-346        | 90            | 1          | ID: 953 (wyd: 70 m3/h, 1U, koszt: 104)
-347        | 370           | 3          | ID: 1239 (wyd: 370 m3/h, 3U, koszt: 387)
-348        | 70            | 1          | ID: 2731 (wyd: 90 m3/h, 1U, koszt: 113)
-349        | 120           | 2          | ID: 2152 (wyd: 225 m3/h, 2U, koszt: 299)
-350        | 100           | 1          | ID: 2365 (wyd: 135 m3/h, 1U, koszt: 193)
-351        | 340           | 4          | ID: 2041 (wyd: 690 m3/h, 4U, koszt: 817)
-352        | 70            | 1          | BRAK
-353        | 110           | 2          | ID: 898 (wyd: 270 m3/h, 2U, koszt: 346)
-354        | 360           | 3          | ID: 1112 (wyd: 355 m3/h, 3U, koszt: 355)
-355        | 230           | 2          | BRAK
-356        | 180           | 2          | ID: 2195 (wyd: 255 m3/h, 2U, koszt: 293)
-357        | 230           | 2          | BRAK
-358        | 90            | 1          | BRAK
-359        | 340           | 3          | ID: 8 (wyd: 360 m3/h, 3U, koszt: 383)
-360        | 220           | 2          | ID: 1070 (wyd: 240 m3/h, 2U, koszt: 280)
-361        | 540           | 4          | ID: 145 (wyd: 530 m3/h, 4U, koszt: 555)
-362        | 170           | 2          | ID: 457 (wyd: 115 m3/h, 1U, koszt: 135)
-363        | 110           | 2          | ID: 1988 (wyd: 85 m3/h, 1U, koszt: 111)
-364        | 80            | 1          | BRAK
-365        | 200           | 3          | ID: 2967 (wyd: 275 m3/h, 2U, koszt: 339)
-366        | 80            | 1          | ID: 582 (wyd: 125 m3/h, 1U, koszt: 160)
-367        | 330           | 3          | ID: 587 (wyd: 320 m3/h, 3U, koszt: 348)
-368        | 480           | 4          | ID: 2143 (wyd: 280 m3/h, 2U, koszt: 335)
-369        | 80            | 1          | BRAK
-370        | 50            | 1          | BRAK
-371        | 100           | 1          | ID: 1595 (wyd: 110 m3/h, 1U, koszt: 139)
-372        | 120           | 2          | ID: 1814 (wyd: 250 m3/h, 2U, koszt: 272)
-373        | 320           | 4          | ID: 1885 (wyd: 415 m3/h, 3U, koszt: 536)
-374        | 240           | 3          | ID: 557 (wyd: 375 m3/h, 3U, koszt: 542)
-375        | 280           | 3          | ID: 45 (wyd: 425 m3/h, 3U, koszt: 533)
-376        | 400           | 4          | ID: 2611 (wyd: 405 m3/h, 4U, koszt: 490)
-377        | 100           | 2          | ID: 47 (wyd: 210 m3/h, 2U, koszt: 263)
-378        | 80            | 1          | BRAK
-379        | 120           | 2          | ID: 2945 (wyd: 280 m3/h, 2U, koszt: 281)
-380        | 60            | 1          | ID: 436 (wyd: 85 m3/h, 1U, koszt: 144)
-381        | 90            | 1          | ID: 1317 (wyd: 70 m3/h, 1U, koszt: 88)
-382        | 40            | 1          | ID: 2799 (wyd: 75 m3/h, 1U, koszt: 83)
-383        | 210           | 2          | ID: 1713 (wyd: 275 m3/h, 2U, koszt: 285)
-384        | 170           | 2          | ID: 2154 (wyd: 115 m3/h, 1U, koszt: 119)
-385        | 90            | 1          | BRAK
-386        | 360           | 3          | ID: 2794 (wyd: 235 m3/h, 2U, koszt: 257)
-387        | 520           | 4          | ID: 851 (wyd: 605 m3/h, 4U, koszt: 612)
-388        | 200           | 2          | ID: 1173 (wyd: 200 m3/h, 2U, koszt: 216)
-389        | 80            | 1          | ID: 1288 (wyd: 135 m3/h, 1U, koszt: 150)
-390        | 220           | 2          | BRAK
-391        | 230           | 3          | ID: 2003 (wyd: 430 m3/h, 3U, koszt: 565)
-392        | 240           | 2          | ID: 741 (wyd: 150 m3/h, 2U, koszt: 161)
-393        | 90            | 1          | ID: 76 (wyd: 95 m3/h, 1U, koszt: 143)
-394        | 320           | 4          | ID: 2186 (wyd: 410 m3/h, 4U, koszt: 418)
-395        | 370           | 3          | ID: 2500 (wyd: 220 m3/h, 2U, koszt: 278)
-396        | 50            | 1          | ID: 2574 (wyd: 80 m3/h, 1U, koszt: 113)
-397        | 140           | 2          | ID: 1436 (wyd: 145 m3/h, 2U, koszt: 162)
-398        | 180           | 2          | ID: 2295 (wyd: 165 m3/h, 2U, koszt: 184)
-399        | 230           | 2          | BRAK
-400        | 110           | 1          | BRAK
-401        | 70            | 1          | ID: 1396 (wyd: 75 m3/h, 1U, koszt: 100)
-402        | 40            | 1          | ID: 1091 (wyd: 125 m3/h, 1U, koszt: 183)
-403        | 390           | 4          | ID: 173 (wyd: 695 m3/h, 4U, koszt: 859)
-404        | 510           | 4          | ID: 548 (wyd: 625 m3/h, 4U, koszt: 724)
-405        | 80            | 1          | BRAK
-406        | 220           | 2          | ID: 1824 (wyd: 115 m3/h, 1U, koszt: 132)
-407        | 40            | 1          | ID: 1837 (wyd: 70 m3/h, 1U, koszt: 89)
-408        | 70            | 1          | ID: 1342 (wyd: 95 m3/h, 1U, koszt: 119)
-409        | 370           | 3          | ID: 1671 (wyd: 355 m3/h, 3U, koszt: 486)
-410        | 90            | 1          | ID: 126 (wyd: 140 m3/h, 1U, koszt: 158)
-411        | 320           | 4          | ID: 1235 (wyd: 335 m3/h, 3U, koszt: 384)
-412        | 40            | 1          | BRAK
-413        | 130           | 2          | ID: 2822 (wyd: 205 m3/h, 2U, koszt: 211)
-414        | 120           | 1          | ID: 2396 (wyd: 95 m3/h, 1U, koszt: 108)
-415        | 110           | 2          | ID: 203 (wyd: 230 m3/h, 2U, koszt: 274)
-416        | 360           | 4          | ID: 15 (wyd: 405 m3/h, 3U, koszt: 558)
-417        | 60            | 1          | ID: 1339 (wyd: 95 m3/h, 1U, koszt: 148)
-418        | 230           | 2          | ID: 1588 (wyd: 190 m3/h, 2U, koszt: 226)
-419        | 100           | 2          | ID: 1823 (wyd: 195 m3/h, 2U, koszt: 207)
-420        | 100           | 1          | ID: 1954 (wyd: 95 m3/h, 1U, koszt: 99)
-421        | 80            | 1          | ID: 1042 (wyd: 60 m3/h, 1U, koszt: 92)
-422        | 520           | 4          | ID: 1563 (wyd: 595 m3/h, 4U, koszt: 700)
-423        | 230           | 2          | BRAK
-424        | 290           | 3          | ID: 573 (wyd: 270 m3/h, 3U, koszt: 289)
-425        | 60            | 1          | BRAK
-426        | 110           | 1          | ID: 2297 (wyd: 85 m3/h, 1U, koszt: 96)
-427        | 120           | 2          | ID: 684 (wyd: 170 m3/h, 2U, koszt: 203)
-428        | 540           | 4          | ID: 528 (wyd: 460 m3/h, 4U, koszt: 499)
-429        | 390           | 4          | ID: 567 (wyd: 310 m3/h, 3U, koszt: 356)
-430        | 200           | 3          | ID: 274 (wyd: 380 m3/h, 3U, koszt: 384)
-431        | 190           | 2          | ID: 202 (wyd: 195 m3/h, 2U, koszt: 287)
-432        | 100           | 1          | BRAK
-433        | 110           | 2          | ID: 1279 (wyd: 200 m3/h, 2U, koszt: 273)
-434        | 100           | 2          | BRAK
-435        | 150           | 2          | ID: 243 (wyd: 165 m3/h, 2U, koszt: 201)
-436        | 300           | 3          | ID: 2331 (wyd: 295 m3/h, 3U, koszt: 302)
-437        | 50            | 1          | ID: 816 (wyd: 75 m3/h, 1U, koszt: 93)
-438        | 270           | 3          | BRAK
-439        | 540           | 4          | ID: 103 (wyd: 690 m3/h, 4U, koszt: 857)
-440        | 70            | 1          | BRAK
-441        | 50            | 1          | ID: 1415 (wyd: 65 m3/h, 1U, koszt: 82)
-442        | 230           | 3          | ID: 147 (wyd: 220 m3/h, 2U, koszt: 242)
-443        | 100           | 1          | BRAK
-444        | 210           | 2          | ID: 2606 (wyd: 280 m3/h, 2U, koszt: 305)
-445        | 50            | 1          | ID: 2709 (wyd: 95 m3/h, 1U, koszt: 107)
-446        | 110           | 1          | ID: 307 (wyd: 80 m3/h, 1U, koszt: 100)
-447        | 130           | 2          | ID: 1952 (wyd: 160 m3/h, 2U, koszt: 177)
-448        | 320           | 4          | ID: 1433 (wyd: 520 m3/h, 4U, koszt: 550)
-449        | 140           | 2          | ID: 2013 (wyd: 235 m3/h, 2U, koszt: 323)
-450        | 360           | 3          | ID: 1517 (wyd: 430 m3/h, 3U, koszt: 437)
-451        | 260           | 3          | ID: 2553 (wyd: 215 m3/h, 2U, koszt: 290)
-452        | 230           | 2          | ID: 918 (wyd: 85 m3/h, 1U, koszt: 130)
-453        | 170           | 2          | ID: 938 (wyd: 275 m3/h, 2U, koszt: 290)
-454        | 150           | 2          | ID: 781 (wyd: 225 m3/h, 2U, koszt: 253)
-455        | 90            | 1          | ID: 1282 (wyd: 70 m3/h, 1U, koszt: 113)
-456        | 110           | 2          | ID: 754 (wyd: 255 m3/h, 2U, koszt: 340)
-457        | 120           | 2          | BRAK
-458        | 140           | 2          | ID: 2357 (wyd: 215 m3/h, 2U, koszt: 269)
-459        | 500           | 4          | ID: 2746 (wyd: 345 m3/h, 3U, koszt: 408)
-460        | 70            | 1          | ID: 156 (wyd: 75 m3/h, 1U, koszt: 100)
-461        | 220           | 2          | BRAK
-462        | 120           | 2          | BRAK
-463        | 40            | 1          | ID: 712 (wyd: 70 m3/h, 1U, koszt: 93)
-464        | 110           | 1          | ID: 497 (wyd: 100 m3/h, 1U, koszt: 125)
-465        | 110           | 1          | ID: 233 (wyd: 60 m3/h, 1U, koszt: 92)
-466        | 180           | 2          | ID: 1810 (wyd: 205 m3/h, 2U, koszt: 270)
-467        | 510           | 4          | ID: 589 (wyd: 475 m3/h, 4U, koszt: 527)
-468        | 50            | 1          | BRAK
-469        | 100           | 1          | BRAK
-470        | 80            | 1          | ID: 48 (wyd: 125 m3/h, 1U, koszt: 173)
-471        | 110           | 1          | BRAK
-472        | 230           | 2          | ID: 2110 (wyd: 135 m3/h, 2U, koszt: 152)
-473        | 360           | 4          | ID: 863 (wyd: 645 m3/h, 4U, koszt: 842)
-474        | 140           | 2          | ID: 1226 (wyd: 165 m3/h, 2U, koszt: 172)
-475        | 170           | 2          | ID: 1061 (wyd: 200 m3/h, 2U, koszt: 263)
-476        | 40            | 1          | BRAK
-477        | 340           | 3          | ID: 2677 (wyd: 320 m3/h, 3U, koszt: 370)
-478        | 180           | 2          | ID: 1781 (wyd: 210 m3/h, 2U, koszt: 261)
-479        | 320           | 3          | ID: 766 (wyd: 115 m3/h, 1U, koszt: 135)
-480        | 70            | 1          | BRAK
-481        | 300           | 3          | ID: 2309 (wyd: 280 m3/h, 3U, koszt: 381)
-482        | 360           | 3          | ID: 919 (wyd: 355 m3/h, 3U, koszt: 400)
-483        | 410           | 4          | ID: 411 (wyd: 670 m3/h, 4U, koszt: 680)
-484        | 270           | 3          | ID: 2643 (wyd: 280 m3/h, 3U, koszt: 345)
-485        | 50            | 1          | BRAK
-486        | 150           | 2          | BRAK
-487        | 250           | 3          | ID: 2622 (wyd: 260 m3/h, 2U, koszt: 365)
-488        | 270           | 3          | ID: 1758 (wyd: 425 m3/h, 3U, koszt: 472)
-489        | 90            | 1          | ID: 2519 (wyd: 65 m3/h, 1U, koszt: 82)
-490        | 70            | 1          | ID: 240 (wyd: 115 m3/h, 1U, koszt: 152)
-491        | 120           | 2          | BRAK
-492        | 180           | 2          | ID: 1990 (wyd: 220 m3/h, 2U, koszt: 243)
-493        | 280           | 3          | ID: 300 (wyd: 275 m3/h, 3U, koszt: 319)
-494        | 220           | 3          | ID: 2320 (wyd: 290 m3/h, 3U, koszt: 320)
-495        | 70            | 1          | BRAK
-496        | 80            | 1          | BRAK
-497        | 100           | 1          | ID: 1082 (wyd: 75 m3/h, 1U, koszt: 133)
-498        | 170           | 2          | ID: 2659 (wyd: 100 m3/h, 1U, koszt: 121)
-499        | 160           | 2          | ID: 1610 (wyd: 260 m3/h, 2U, koszt: 290)
-500        | 420           | 4          | ID: 1576 (wyd: 425 m3/h, 3U, koszt: 510)
-501        | 40            | 1          | ID: 1382 (wyd: 65 m3/h, 1U, koszt: 106)
-502        | 510           | 4          | ID: 975 (wyd: 600 m3/h, 4U, koszt: 741)
-503        | 140           | 2          | ID: 30 (wyd: 185 m3/h, 2U, koszt: 210)
-504        | 80            | 1          | ID: 1757 (wyd: 85 m3/h, 1U, koszt: 113)
-505        | 200           | 3          | ID: 486 (wyd: 315 m3/h, 3U, koszt: 353)
-506        | 110           | 2          | BRAK
-507        | 80            | 1          | ID: 2349 (wyd: 130 m3/h, 1U, koszt: 239)
-508        | 70            | 1          | ID: 121 (wyd: 85 m3/h, 1U, koszt: 102)
-509        | 480           | 4          | ID: 2004 (wyd: 635 m3/h, 4U, koszt: 654)
-510        | 130           | 2          | BRAK
-511        | 100           | 1          | ID: 1080 (wyd: 110 m3/h, 1U, koszt: 138)
-512        | 210           | 2          | ID: 1670 (wyd: 140 m3/h, 2U, koszt: 162)
-513        | 230           | 2          | ID: 1685 (wyd: 250 m3/h, 2U, koszt: 328)
-514        | 140           | 2          | ID: 2066 (wyd: 240 m3/h, 2U, koszt: 246)
-515        | 40            | 1          | BRAK
-516        | 110           | 1          | ID: 2903 (wyd: 115 m3/h, 1U, koszt: 180)
-517        | 220           | 2          | ID: 213 (wyd: 135 m3/h, 2U, koszt: 144)
-518        | 210           | 2          | ID: 690 (wyd: 205 m3/h, 2U, koszt: 237)
-519        | 330           | 3          | ID: 448 (wyd: 280 m3/h, 3U, koszt: 285)
-520        | 280           | 3          | ID: 2457 (wyd: 325 m3/h, 3U, koszt: 415)
-521        | 160           | 2          | ID: 2788 (wyd: 140 m3/h, 2U, koszt: 149)
-522        | 220           | 2          | BRAK
-523        | 50            | 1          | BRAK
-524        | 230           | 2          | ID: 1258 (wyd: 270 m3/h, 2U, koszt: 355)
-525        | 230           | 2          | ID: 1206 (wyd: 195 m3/h, 2U, koszt: 241)
-526        | 360           | 4          | ID: 590 (wyd: 640 m3/h, 4U, koszt: 779)
-527        | 160           | 2          | ID: 1739 (wyd: 260 m3/h, 2U, koszt: 397)
-528        | 90            | 1          | BRAK
-529        | 50            | 1          | ID: 2220 (wyd: 90 m3/h, 1U, koszt: 113)
-530        | 140           | 2          | ID: 209 (wyd: 205 m3/h, 2U, koszt: 222)
-531        | 220           | 2          | ID: 2375 (wyd: 195 m3/h, 2U, koszt: 238)
-532        | 120           | 2          | ID: 536 (wyd: 195 m3/h, 2U, koszt: 203)
-533        | 70            | 1          | ID: 2071 (wyd: 130 m3/h, 1U, koszt: 133)
-534        | 230           | 2          | ID: 2369 (wyd: 70 m3/h, 1U, koszt: 117)
-535        | 90            | 1          | ID: 2697 (wyd: 130 m3/h, 1U, koszt: 204)
-536        | 110           | 2          | ID: 2506 (wyd: 235 m3/h, 2U, koszt: 254)
-537        | 60            | 1          | BRAK
-538        | 80            | 1          | ID: 1857 (wyd: 130 m3/h, 1U, koszt: 191)
-539        | 90            | 1          | BRAK
-540        | 100           | 1          | ID: 1045 (wyd: 110 m3/h, 1U, koszt: 128)
-541        | 230           | 2          | ID: 69 (wyd: 150 m3/h, 2U, koszt: 198)
-542        | 40            | 1          | ID: 992 (wyd: 115 m3/h, 1U, koszt: 126)
-543        | 100           | 2          | ID: 59 (wyd: 130 m3/h, 2U, koszt: 170)
-544        | 140           | 2          | ID: 526 (wyd: 270 m3/h, 2U, koszt: 301)
-545        | 140           | 2          | ID: 776 (wyd: 255 m3/h, 2U, koszt: 267)
-546        | 330           | 3          | ID: 1994 (wyd: 315 m3/h, 3U, koszt: 384)
-547        | 90            | 1          | BRAK
-548        | 90            | 1          | ID: 1423 (wyd: 120 m3/h, 1U, koszt: 167)
-549        | 70            | 1          | ID: 2418 (wyd: 100 m3/h, 1U, koszt: 113)
-550        | 120           | 2          | ID: 2391 (wyd: 145 m3/h, 2U, koszt: 193)
-551        | 260           | 3          | ID: 1432 (wyd: 395 m3/h, 3U, koszt: 542)
-552        | 260           | 3          | ID: 2781 (wyd: 390 m3/h, 3U, koszt: 444)
-553        | 90            | 1          | ID: 2078 (wyd: 95 m3/h, 1U, koszt: 130)
-554        | 100           | 1          | ID: 1621 (wyd: 50 m3/h, 1U, koszt: 65)
-555        | 110           | 1          | ID: 2383 (wyd: 125 m3/h, 1U, koszt: 163)
-556        | 140           | 2          | ID: 630 (wyd: 135 m3/h, 2U, koszt: 176)
-557        | 260           | 3          | ID: 49 (wyd: 420 m3/h, 3U, koszt: 431)
-558        | 230           | 3          | ID: 20 (wyd: 280 m3/h, 3U, koszt: 294)
-559        | 200           | 3          | ID: 364 (wyd: 230 m3/h, 2U, koszt: 281)
-560        | 150           | 2          | ID: 2021 (wyd: 175 m3/h, 2U, koszt: 242)
-561        | 310           | 3          | ID: 1779 (wyd: 305 m3/h, 3U, koszt: 388)
-562        | 290           | 3          | ID: 2253 (wyd: 265 m3/h, 3U, koszt: 318)
-563        | 310           | 3          | ID: 2487 (wyd: 405 m3/h, 3U, koszt: 511)
-564        | 230           | 2          | ID: 2563 (wyd: 230 m3/h, 2U, koszt: 245)
-565        | 200           | 2          | ID: 1862 (wyd: 260 m3/h, 2U, koszt: 329)
-566        | 220           | 3          | ID: 288 (wyd: 445 m3/h, 3U, koszt: 480)
-567        | 200           | 2          | BRAK
-568        | 530           | 4          | ID: 1515 (wyd: 460 m3/h, 4U, koszt: 480)
-569        | 100           | 1          | ID: 1976 (wyd: 110 m3/h, 1U, koszt: 120)
-570        | 300           | 3          | ID: 2193 (wyd: 300 m3/h, 3U, koszt: 307)
-571        | 130           | 2          | ID: 2535 (wyd: 80 m3/h, 1U, koszt: 92)
-572        | 100           | 1          | ID: 2947 (wyd: 85 m3/h, 1U, koszt: 98)
-573        | 60            | 1          | BRAK
-574        | 130           | 2          | BRAK
-575        | 210           | 3          | ID: 2299 (wyd: 445 m3/h, 3U, koszt: 532)
-576        | 260           | 3          | ID: 1566 (wyd: 305 m3/h, 3U, koszt: 378)
-577        | 50            | 1          | BRAK
-578        | 420           | 4          | ID: 1844 (wyd: 520 m3/h, 4U, koszt: 636)
-579        | 220           | 3          | ID: 191 (wyd: 365 m3/h, 3U, koszt: 462)
-580        | 220           | 2          | ID: 1504 (wyd: 240 m3/h, 2U, koszt: 301)
-581        | 270           | 3          | ID: 749 (wyd: 405 m3/h, 3U, koszt: 482)
-582        | 150           | 2          | BRAK
-583        | 440           | 4          | ID: 1143 (wyd: 650 m3/h, 4U, koszt: 878)
-584        | 330           | 3          | BRAK
-585        | 200           | 3          | ID: 101 (wyd: 335 m3/h, 3U, koszt: 339)
-586        | 230           | 3          | ID: 319 (wyd: 340 m3/h, 3U, koszt: 503)
-587        | 100           | 1          | ID: 2400 (wyd: 50 m3/h, 1U, koszt: 58)
-588        | 80            | 1          | ID: 2488 (wyd: 80 m3/h, 1U, koszt: 99)
-589        | 90            | 1          | ID: 2454 (wyd: 135 m3/h, 1U, koszt: 145)
-590        | 290           | 3          | BRAK
-591        | 360           | 3          | ID: 2668 (wyd: 325 m3/h, 3U, koszt: 366)
-592        | 480           | 4          | ID: 576 (wyd: 185 m3/h, 2U, koszt: 235)
-593        | 140           | 2          | BRAK
-594        | 450           | 4          | ID: 1545 (wyd: 485 m3/h, 4U, koszt: 650)
-595        | 350           | 4          | ID: 236 (wyd: 530 m3/h, 4U, koszt: 549)
-596        | 180           | 2          | ID: 2919 (wyd: 145 m3/h, 2U, koszt: 206)
-597        | 70            | 1          | ID: 316 (wyd: 55 m3/h, 1U, koszt: 100)
-598        | 210           | 3          | ID: 2833 (wyd: 340 m3/h, 3U, koszt: 374)
-599        | 260           | 3          | ID: 190 (wyd: 415 m3/h, 3U, koszt: 455)
-600        | 110           | 1          | ID: 1266 (wyd: 55 m3/h, 1U, koszt: 72)
-601        | 100           | 1          | ID: 451 (wyd: 95 m3/h, 1U, koszt: 108)
-602        | 420           | 4          | ID: 1925 (wyd: 530 m3/h, 4U, koszt: 581)
-603        | 150           | 2          | ID: 672 (wyd: 135 m3/h, 2U, koszt: 154)
-604        | 90            | 1          | ID: 1316 (wyd: 130 m3/h, 1U, koszt: 194)
-605        | 80            | 1          | ID: 1232 (wyd: 135 m3/h, 1U, koszt: 145)
-606        | 40            | 1          | ID: 1829 (wyd: 135 m3/h, 1U, koszt: 193)
-607        | 70            | 1          | ID: 519 (wyd: 95 m3/h, 1U, koszt: 102)
-608        | 60            | 1          | BRAK
-609        | 410           | 4          | ID: 2812 (wyd: 145 m3/h, 2U, koszt: 168)
-610        | 110           | 1          | BRAK
-611        | 70            | 1          | BRAK
-612        | 170           | 2          | ID: 698 (wyd: 255 m3/h, 2U, koszt: 355)
-613        | 70            | 1          | ID: 1446 (wyd: 65 m3/h, 1U, koszt: 80)
-614        | 60            | 1          | ID: 387 (wyd: 135 m3/h, 1U, koszt: 215)
-615        | 40            | 1          | ID: 1180 (wyd: 125 m3/h, 1U, koszt: 128)
-616        | 360           | 3          | ID: 2771 (wyd: 445 m3/h, 3U, koszt: 588)
-617        | 40            | 1          | BRAK
-618        | 40            | 1          | ID: 123 (wyd: 75 m3/h, 1U, koszt: 95)
-619        | 180           | 2          | BRAK
-620        | 80            | 1          | ID: 2187 (wyd: 125 m3/h, 1U, koszt: 192)
-621        | 330           | 4          | ID: 2929 (wyd: 515 m3/h, 4U, koszt: 596)
-622        | 330           | 3          | ID: 1680 (wyd: 400 m3/h, 3U, koszt: 399)
-623        | 150           | 2          | BRAK
-624        | 230           | 3          | ID: 848 (wyd: 425 m3/h, 3U, koszt: 468)
-625        | 280           | 3          | ID: 973 (wyd: 345 m3/h, 3U, koszt: 348)
-626        | 110           | 2          | ID: 628 (wyd: 145 m3/h, 2U, koszt: 163)
-627        | 50            | 1          | ID: 57 (wyd: 125 m3/h, 1U, koszt: 162)
-628        | 190           | 2          | ID: 1188 (wyd: 170 m3/h, 2U, koszt: 230)
-629        | 230           | 2          | ID: 2680 (wyd: 215 m3/h, 2U, koszt: 279)
-630        | 200           | 3          | ID: 2620 (wyd: 210 m3/h, 2U, koszt: 226)
-631        | 60            | 1          | BRAK
-632        | 60            | 1          | BRAK
-633        | 320           | 3          | ID: 2101 (wyd: 395 m3/h, 3U, koszt: 443)
-634        | 110           | 1          | BRAK
-635        | 60            | 1          | BRAK
-636        | 210           | 2          | ID: 1850 (wyd: 220 m3/h, 2U, koszt: 322)
-637        | 300           | 3          | ID: 1559 (wyd: 380 m3/h, 3U, koszt: 478)
-638        | 40            | 1          | ID: 1309 (wyd: 55 m3/h, 1U, koszt: 71)
-639        | 40            | 1          | BRAK
-640        | 320           | 4          | ID: 2887 (wyd: 570 m3/h, 4U, koszt: 661)
-641        | 100           | 1          | ID: 207 (wyd: 120 m3/h, 1U, koszt: 122)
-642        | 50            | 1          | ID: 731 (wyd: 60 m3/h, 1U, koszt: 70)
-643        | 360           | 3          | ID: 1789 (wyd: 425 m3/h, 3U, koszt: 434)
-644        | 40            | 1          | BRAK
-645        | 110           | 1          | ID: 1229 (wyd: 110 m3/h, 1U, koszt: 111)
-646        | 220           | 3          | ID: 693 (wyd: 280 m3/h, 3U, koszt: 344)
-647        | 90            | 1          | BRAK
-648        | 100           | 1          | ID: 2536 (wyd: 60 m3/h, 1U, koszt: 67)
-649        | 100           | 1          | ID: 2886 (wyd: 70 m3/h, 1U, koszt: 91)
-650        | 280           | 3          | BRAK
-651        | 230           | 3          | ID: 1531 (wyd: 360 m3/h, 3U, koszt: 440)
-652        | 50            | 1          | BRAK
-653        | 230           | 2          | ID: 1109 (wyd: 270 m3/h, 2U, koszt: 303)
-654        | 320           | 3          | ID: 2970 (wyd: 400 m3/h, 3U, koszt: 422)
-655        | 500           | 4          | ID: 2806 (wyd: 470 m3/h, 4U, koszt: 573)
-656        | 150           | 2          | ID: 807 (wyd: 155 m3/h, 2U, koszt: 191)
-657        | 140           | 2          | ID: 2139 (wyd: 255 m3/h, 2U, koszt: 280)
-658        | 440           | 4          | ID: 673 (wyd: 640 m3/h, 4U, koszt: 816)
-659        | 170           | 2          | ID: 2545 (wyd: 225 m3/h, 2U, koszt: 260)
-660        | 110           | 1          | ID: 2714 (wyd: 70 m3/h, 1U, koszt: 85)
-661        | 290           | 3          | ID: 2821 (wyd: 70 m3/h, 1U, koszt: 97)
-662        | 120           | 2          | BRAK
-663        | 90            | 1          | ID: 429 (wyd: 80 m3/h, 1U, koszt: 109)
-664        | 380           | 3          | ID: 2905 (wyd: 395 m3/h, 3U, koszt: 392)
-665        | 50            | 1          | BRAK
-666        | 170           | 2          | BRAK
-667        | 140           | 2          | BRAK
-668        | 90            | 1          | ID: 1718 (wyd: 135 m3/h, 1U, koszt: 198)
-669        | 160           | 2          | BRAK
-670        | 60            | 1          | ID: 836 (wyd: 55 m3/h, 1U, koszt: 67)
-671        | 220           | 3          | ID: 823 (wyd: 265 m3/h, 3U, koszt: 316)
-672        | 430           | 4          | ID: 1618 (wyd: 265 m3/h, 2U, koszt: 366)
-673        | 480           | 4          | ID: 882 (wyd: 485 m3/h, 4U, koszt: 506)
-674        | 110           | 1          | ID: 2742 (wyd: 80 m3/h, 1U, koszt: 121)
-675        | 200           | 2          | BRAK
-676        | 200           | 2          | ID: 90 (wyd: 130 m3/h, 2U, koszt: 143)
-677        | 450           | 4          | ID: 1331 (wyd: 500 m3/h, 4U, koszt: 521)
-678        | 100           | 1          | ID: 2808 (wyd: 90 m3/h, 1U, koszt: 116)
-679        | 540           | 4          | ID: 1044 (wyd: 620 m3/h, 4U, koszt: 639)
-680        | 220           | 2          | ID: 2119 (wyd: 165 m3/h, 2U, koszt: 173)
-681        | 110           | 2          | BRAK
-682        | 330           | 4          | ID: 530 (wyd: 565 m3/h, 4U, koszt: 573)
-683        | 110           | 1          | ID: 592 (wyd: 135 m3/h, 1U, koszt: 181)
-684        | 110           | 1          | ID: 2067 (wyd: 120 m3/h, 1U, koszt: 134)
-685        | 100           | 2          | ID: 1699 (wyd: 180 m3/h, 2U, koszt: 240)
-686        | 100           | 1          | ID: 886 (wyd: 55 m3/h, 1U, koszt: 62)
-687        | 350           | 3          | BRAK
-688        | 70            | 1          | ID: 136 (wyd: 110 m3/h, 1U, koszt: 142)
-689        | 60            | 1          | ID: 53 (wyd: 70 m3/h, 1U, koszt: 103)
-690        | 110           | 1          | ID: 2433 (wyd: 120 m3/h, 1U, koszt: 161)
-691        | 100           | 1          | BRAK
-692        | 490           | 4          | ID: 666 (wyd: 520 m3/h, 4U, koszt: 565)
-693        | 110           | 1          | ID: 958 (wyd: 85 m3/h, 1U, koszt: 105)
-694        | 190           | 2          | ID: 2864 (wyd: 210 m3/h, 2U, koszt: 225)
-695        | 110           | 1          | ID: 951 (wyd: 50 m3/h, 1U, koszt: 71)
-696        | 130           | 2          | ID: 1328 (wyd: 180 m3/h, 2U, koszt: 184)
-697        | 210           | 2          | ID: 359 (wyd: 270 m3/h, 2U, koszt: 374)
-698        | 130           | 2          | ID: 2185 (wyd: 235 m3/h, 2U, koszt: 246)
-699        | 520           | 4          | ID: 2972 (wyd: 495 m3/h, 4U, koszt: 500)
-700        | 130           | 2          | ID: 1118 (wyd: 255 m3/h, 2U, koszt: 277)
-701        | 320           | 4          | ID: 707 (wyd: 475 m3/h, 4U, koszt: 560)
-702        | 260           | 3          | ID: 1087 (wyd: 250 m3/h, 3U, koszt: 304)
-703        | 380           | 4          | ID: 1608 (wyd: 445 m3/h, 3U, koszt: 551)
-704        | 40            | 1          | ID: 293 (wyd: 60 m3/h, 1U, koszt: 81)
-705        | 130           | 2          | ID: 846 (wyd: 65 m3/h, 1U, koszt: 79)
-706        | 210           | 2          | ID: 2635 (wyd: 250 m3/h, 2U, koszt: 345)
-707        | 60            | 1          | BRAK
-708        | 140           | 2          | BRAK
-709        | 200           | 3          | ID: 2434 (wyd: 410 m3/h, 3U, koszt: 502)
-710        | 40            | 1          | ID: 1655 (wyd: 125 m3/h, 1U, koszt: 159)
-711        | 60            | 1          | ID: 2722 (wyd: 85 m3/h, 1U, koszt: 105)
-712        | 110           | 2          | BRAK
-713        | 140           | 2          | ID: 629 (wyd: 155 m3/h, 2U, koszt: 203)
-714        | 320           | 3          | ID: 83 (wyd: 430 m3/h, 3U, koszt: 531)
-715        | 220           | 2          | ID: 2586 (wyd: 145 m3/h, 2U, koszt: 178)
-716        | 220           | 2          | BRAK
-717        | 100           | 1          | ID: 2958 (wyd: 135 m3/h, 1U, koszt: 194)
-718        | 60            | 1          | ID: 1625 (wyd: 100 m3/h, 1U, koszt: 148)
-719        | 340           | 3          | BRAK
-720        | 170           | 2          | BRAK
-721        | 470           | 4          | ID: 2937 (wyd: 530 m3/h, 4U, koszt: 595)
-722        | 70            | 1          | BRAK
-723        | 240           | 3          | ID: 1004 (wyd: 435 m3/h, 3U, koszt: 567)
-724        | 90            | 1          | BRAK
-725        | 270           | 3          | ID: 1744 (wyd: 360 m3/h, 3U, koszt: 373)
-726        | 70            | 1          | BRAK
-727        | 70            | 1          | BRAK
-728        | 180           | 2          | ID: 2839 (wyd: 245 m3/h, 2U, koszt: 296)
-729        | 70            | 1          | ID: 2505 (wyd: 105 m3/h, 1U, koszt: 137)
-730        | 190           | 2          | ID: 1137 (wyd: 145 m3/h, 2U, koszt: 204)
-731        | 100           | 1          | ID: 911 (wyd: 70 m3/h, 1U, koszt: 117)
-732        | 100           | 2          | BRAK
-733        | 200           | 3          | ID: 1174 (wyd: 300 m3/h, 3U, koszt: 346)
-734        | 440           | 4          | ID: 1148 (wyd: 615 m3/h, 4U, koszt: 619)
-735        | 100           | 2          | ID: 930 (wyd: 255 m3/h, 2U, koszt: 359)
-736        | 160           | 2          | ID: 826 (wyd: 195 m3/h, 2U, koszt: 214)
-737        | 70            | 1          | ID: 1535 (wyd: 90 m3/h, 1U, koszt: 128)
-738        | 200           | 2          | BRAK
-739        | 70            | 1          | ID: 1121 (wyd: 75 m3/h, 1U, koszt: 101)
-740        | 480           | 4          | ID: 2823 (wyd: 590 m3/h, 4U, koszt: 648)
-741        | 110           | 2          | ID: 2543 (wyd: 125 m3/h, 1U, koszt: 148)
-742        | 60            | 1          | BRAK
-743        | 40            | 1          | BRAK
-744        | 350           | 4          | ID: 2975 (wyd: 505 m3/h, 4U, koszt: 568)
-745        | 210           | 3          | ID: 437 (wyd: 370 m3/h, 3U, koszt: 437)
-746        | 120           | 2          | ID: 2994 (wyd: 220 m3/h, 2U, koszt: 255)
-747        | 90            | 1          | BRAK
-748        | 130           | 2          | ID: 381 (wyd: 140 m3/h, 2U, koszt: 148)
-749        | 90            | 1          | BRAK
-750        | 290           | 3          | ID: 2450 (wyd: 430 m3/h, 3U, koszt: 485)
-751        | 120           | 2          | ID: 2630 (wyd: 145 m3/h, 2U, koszt: 208)
-752        | 400           | 4          | ID: 650 (wyd: 510 m3/h, 4U, koszt: 529)
-753        | 100           | 2          | ID: 2332 (wyd: 240 m3/h, 2U, koszt: 280)
-754        | 520           | 4          | ID: 160 (wyd: 510 m3/h, 4U, koszt: 571)
-755        | 140           | 2          | ID: 2538 (wyd: 65 m3/h, 1U, koszt: 80)
-756        | 100           | 1          | ID: 1369 (wyd: 110 m3/h, 1U, koszt: 117)
-757        | 160           | 2          | BRAK
-758        | 200           | 2          | ID: 2099 (wyd: 250 m3/h, 2U, koszt: 316)
-759        | 40            | 1          | BRAK
-760        | 50            | 1          | ID: 2056 (wyd: 100 m3/h, 1U, koszt: 137)
-761        | 400           | 4          | ID: 181 (wyd: 555 m3/h, 4U, koszt: 600)
-762        | 220           | 2          | ID: 1585 (wyd: 265 m3/h, 2U, koszt: 284)
-763        | 70            | 1          | ID: 332 (wyd: 100 m3/h, 1U, koszt: 124)
-764        | 280           | 3          | ID: 1571 (wyd: 415 m3/h, 3U, koszt: 521)
-765        | 280           | 3          | ID: 987 (wyd: 415 m3/h, 3U, koszt: 501)
-766        | 70            | 1          | ID: 671 (wyd: 95 m3/h, 1U, koszt: 120)
-767        | 180           | 2          | ID: 241 (wyd: 75 m3/h, 1U, koszt: 83)
-768        | 100           | 1          | ID: 1975 (wyd: 70 m3/h, 1U, koszt: 90)
-769        | 200           | 2          | BRAK
-770        | 350           | 3          | ID: 2267 (wyd: 50 m3/h, 1U, koszt: 70)
-771        | 60            | 1          | ID: 2933 (wyd: 90 m3/h, 1U, koszt: 96)
-772        | 420           | 4          | ID: 2103 (wyd: 645 m3/h, 4U, koszt: 711)
-773        | 90            | 1          | ID: 1254 (wyd: 140 m3/h, 1U, koszt: 201)
-774        | 230           | 2          | ID: 1227 (wyd: 160 m3/h, 2U, koszt: 188)
-775        | 100           | 2          | ID: 2065 (wyd: 160 m3/h, 2U, koszt: 173)
-776        | 280           | 3          | ID: 525 (wyd: 200 m3/h, 2U, koszt: 257)
-777        | 180           | 2          | ID: 1041 (wyd: 235 m3/h, 2U, koszt: 301)
-778        | 360           | 3          | ID: 2589 (wyd: 300 m3/h, 3U, koszt: 321)
-779        | 150           | 2          | ID: 1344 (wyd: 185 m3/h, 2U, koszt: 224)
-780        | 330           | 3          | ID: 2327 (wyd: 260 m3/h, 2U, koszt: 275)
-781        | 260           | 3          | ID: 2881 (wyd: 415 m3/h, 3U, koszt: 551)
-782        | 40            | 1          | ID: 159 (wyd: 130 m3/h, 1U, koszt: 188)
-783        | 250           | 3          | BRAK
-784        | 210           | 2          | ID: 2060 (wyd: 220 m3/h, 2U, koszt: 300)
-785        | 170           | 2          | ID: 2993 (wyd: 155 m3/h, 2U, koszt: 191)
-786        | 70            | 1          | BRAK
-787        | 140           | 2          | BRAK
-788        | 110           | 2          | ID: 214 (wyd: 170 m3/h, 2U, koszt: 202)
-789        | 60            | 1          | BRAK
-790        | 220           | 2          | BRAK
-791        | 110           | 2          | ID: 2989 (wyd: 235 m3/h, 2U, koszt: 237)
-792        | 80            | 1          | ID: 409 (wyd: 105 m3/h, 1U, koszt: 138)
-793        | 50            | 1          | BRAK
-794        | 230           | 2          | ID: 2608 (wyd: 225 m3/h, 2U, koszt: 226)
-795        | 110           | 2          | ID: 95 (wyd: 270 m3/h, 2U, koszt: 344)
-796        | 340           | 4          | ID: 2030 (wyd: 550 m3/h, 4U, koszt: 597)
-797        | 100           | 2          | ID: 1589 (wyd: 145 m3/h, 2U, koszt: 164)
-798        | 150           | 2          | ID: 473 (wyd: 175 m3/h, 2U, koszt: 231)
-799        | 220           | 3          | ID: 21 (wyd: 280 m3/h, 3U, koszt: 287)
-800        | 60            | 1          | ID: 1460 (wyd: 105 m3/h, 1U, koszt: 171)
-801        | 150           | 2          | ID: 2362 (wyd: 155 m3/h, 2U, koszt: 161)
-802        | 350           | 4          | ID: 2749 (wyd: 400 m3/h, 3U, koszt: 431)
-803        | 110           | 1          | ID: 579 (wyd: 75 m3/h, 1U, koszt: 118)
-804        | 520           | 4          | ID: 884 (wyd: 630 m3/h, 4U, koszt: 717)
-805        | 100           | 2          | ID: 1101 (wyd: 205 m3/h, 2U, koszt: 253)
-806        | 100           | 1          | ID: 2804 (wyd: 110 m3/h, 1U, koszt: 160)
-807        | 190           | 2          | ID: 2330 (wyd: 145 m3/h, 2U, koszt: 169)
-808        | 100           | 1          | ID: 2440 (wyd: 105 m3/h, 1U, koszt: 158)
-809        | 210           | 3          | BRAK
-810        | 220           | 2          | ID: 810 (wyd: 145 m3/h, 2U, koszt: 172)
-811        | 260           | 3          | ID: 2656 (wyd: 440 m3/h, 3U, koszt: 439)
-812        | 110           | 1          | ID: 585 (wyd: 115 m3/h, 1U, koszt: 169)
-813        | 110           | 1          | BRAK
-814        | 160           | 2          | ID: 2477 (wyd: 220 m3/h, 2U, koszt: 231)
-815        | 180           | 2          | ID: 273 (wyd: 165 m3/h, 2U, koszt: 246)
-816        | 230           | 3          | ID: 2640 (wyd: 210 m3/h, 2U, koszt: 259)
-817        | 210           | 2          | ID: 1223 (wyd: 215 m3/h, 2U, koszt: 295)
-818        | 60            | 1          | BRAK
-819        | 40            | 1          | ID: 1702 (wyd: 125 m3/h, 1U, koszt: 157)
-820        | 60            | 1          | ID: 2114 (wyd: 95 m3/h, 1U, koszt: 127)
-821        | 350           | 3          | ID: 685 (wyd: 345 m3/h, 3U, koszt: 422)
-822        | 310           | 3          | ID: 2076 (wyd: 355 m3/h, 3U, koszt: 465)
-823        | 40            | 1          | ID: 1941 (wyd: 50 m3/h, 1U, koszt: 69)
-824        | 230           | 3          | ID: 1587 (wyd: 360 m3/h, 3U, koszt: 448)
-825        | 430           | 4          | ID: 100 (wyd: 605 m3/h, 4U, koszt: 614)
-826        | 130           | 2          | BRAK
-827        | 330           | 3          | ID: 1697 (wyd: 380 m3/h, 3U, koszt: 429)
-828        | 230           | 2          | ID: 550 (wyd: 235 m3/h, 2U, koszt: 325)
-829        | 90            | 1          | ID: 1257 (wyd: 110 m3/h, 1U, koszt: 152)
-830        | 300           | 3          | ID: 2135 (wyd: 260 m3/h, 2U, koszt: 285)
-831        | 80            | 1          | ID: 1123 (wyd: 80 m3/h, 1U, koszt: 88)
-832        | 110           | 1          | ID: 1701 (wyd: 105 m3/h, 1U, koszt: 164)
-833        | 220           | 3          | ID: 2974 (wyd: 410 m3/h, 3U, koszt: 519)
-834        | 160           | 2          | ID: 1049 (wyd: 110 m3/h, 1U, koszt: 181)
-835        | 80            | 1          | BRAK
-836        | 40            | 1          | BRAK
-837        | 460           | 4          | ID: 1075 (wyd: 495 m3/h, 4U, koszt: 521)
-838        | 300           | 3          | ID: 2051 (wyd: 270 m3/h, 3U, koszt: 337)
-839        | 100           | 1          | ID: 228 (wyd: 65 m3/h, 1U, koszt: 71)
-840        | 280           | 3          | ID: 722 (wyd: 445 m3/h, 3U, koszt: 674)
-841        | 100           | 2          | BRAK
-842        | 90            | 1          | BRAK
-843        | 140           | 2          | BRAK
-844        | 130           | 2          | ID: 502 (wyd: 250 m3/h, 2U, koszt: 321)
-845        | 310           | 3          | ID: 1529 (wyd: 325 m3/h, 3U, koszt: 373)
-846        | 220           | 3          | ID: 2284 (wyd: 325 m3/h, 3U, koszt: 406)
-847        | 80            | 1          | BRAK
-848        | 530           | 4          | ID: 529 (wyd: 670 m3/h, 4U, koszt: 778)
-849        | 80            | 1          | ID: 1853 (wyd: 80 m3/h, 1U, koszt: 99)
-850        | 210           | 3          | ID: 312 (wyd: 270 m3/h, 3U, koszt: 322)
-851        | 160           | 2          | ID: 583 (wyd: 75 m3/h, 1U, koszt: 99)
-852        | 60            | 1          | BRAK
-853        | 90            | 1          | ID: 1462 (wyd: 90 m3/h, 1U, koszt: 109)
-854        | 80            | 1          | ID: 252 (wyd: 90 m3/h, 1U, koszt: 109)
-855        | 80            | 1          | BRAK
-856        | 130           | 2          | ID: 1947 (wyd: 270 m3/h, 2U, koszt: 369)
-857        | 330           | 3          | ID: 2728 (wyd: 415 m3/h, 3U, koszt: 521)
-858        | 270           | 3          | ID: 1799 (wyd: 185 m3/h, 2U, koszt: 253)
-859        | 160           | 2          | BRAK
-860        | 170           | 2          | ID: 2874 (wyd: 215 m3/h, 2U, koszt: 238)
-861        | 110           | 1          | ID: 2093 (wyd: 120 m3/h, 1U, koszt: 139)
-862        | 330           | 3          | ID: 1324 (wyd: 265 m3/h, 3U, koszt: 332)
-863        | 220           | 3          | ID: 2379 (wyd: 435 m3/h, 3U, koszt: 577)
-864        | 100           | 2          | ID: 68 (wyd: 230 m3/h, 2U, koszt: 313)
-865        | 110           | 1          | BRAK
-866        | 230           | 2          | BRAK
-867        | 80            | 1          | ID: 1431 (wyd: 70 m3/h, 1U, koszt: 106)
-868        | 100           | 1          | ID: 870 (wyd: 90 m3/h, 1U, koszt: 137)
-869        | 410           | 4          | ID: 2356 (wyd: 380 m3/h, 3U, koszt: 401)
-870        | 120           | 2          | ID: 1684 (wyd: 215 m3/h, 2U, koszt: 226)
-871        | 160           | 2          | ID: 2601 (wyd: 265 m3/h, 2U, koszt: 284)
-872        | 40            | 1          | BRAK
-873        | 70            | 1          | BRAK
-874        | 330           | 3          | ID: 2479 (wyd: 220 m3/h, 2U, koszt: 256)
-875        | 470           | 4          | ID: 2982 (wyd: 670 m3/h, 4U, koszt: 670)
-876        | 460           | 4          | ID: 1596 (wyd: 695 m3/h, 4U, koszt: 882)
-877        | 50            | 1          | ID: 764 (wyd: 55 m3/h, 1U, koszt: 70)
-878        | 100           | 1          | BRAK
-879        | 80            | 1          | ID: 2005 (wyd: 105 m3/h, 1U, koszt: 145)
-880        | 550           | 4          | BRAK
-881        | 110           | 2          | ID: 1675 (wyd: 255 m3/h, 2U, koszt: 328)
-882        | 50            | 1          | BRAK
-883        | 120           | 1          | BRAK
-884        | 330           | 3          | ID: 2486 (wyd: 150 m3/h, 2U, koszt: 200)
-885        | 240           | 3          | ID: 1950 (wyd: 435 m3/h, 3U, koszt: 481)
-886        | 70            | 1          | ID: 890 (wyd: 80 m3/h, 1U, koszt: 110)
-887        | 280           | 3          | ID: 125 (wyd: 350 m3/h, 3U, koszt: 422)
-888        | 460           | 4          | ID: 200 (wyd: 565 m3/h, 4U, koszt: 578)
-889        | 80            | 1          | ID: 1719 (wyd: 95 m3/h, 1U, koszt: 120)
-890        | 60            | 1          | BRAK
-891        | 130           | 2          | ID: 2471 (wyd: 115 m3/h, 1U, koszt: 164)
-892        | 50            | 1          | ID: 2705 (wyd: 50 m3/h, 1U, koszt: 70)
-893        | 120           | 2          | BRAK
-894        | 90            | 1          | ID: 2583 (wyd: 80 m3/h, 1U, koszt: 116)
-895        | 90            | 1          | BRAK
-896        | 230           | 3          | ID: 1156 (wyd: 440 m3/h, 3U, koszt: 541)
-897        | 120           | 2          | ID: 1273 (wyd: 150 m3/h, 2U, koszt: 169)
-898        | 40            | 1          | ID: 1322 (wyd: 70 m3/h, 1U, koszt: 95)
-899        | 50            | 1          | BRAK
-900        | 50            | 1          | BRAK
-901        | 60            | 1          | BRAK
-902        | 150           | 2          | ID: 1219 (wyd: 255 m3/h, 2U, koszt: 381)
-903        | 80            | 1          | BRAK
-904        | 160           | 2          | BRAK
-905        | 350           | 3          | ID: 2609 (wyd: 275 m3/h, 3U, koszt: 315)
-906        | 110           | 1          | BRAK
-907        | 80            | 1          | ID: 2165 (wyd: 90 m3/h, 1U, koszt: 121)
-908        | 90            | 1          | ID: 1809 (wyd: 65 m3/h, 1U, koszt: 89)
-909        | 180           | 2          | ID: 943 (wyd: 270 m3/h, 2U, koszt: 328)
-910        | 220           | 3          | BRAK
-911        | 180           | 2          | ID: 916 (wyd: 220 m3/h, 2U, koszt: 257)
-912        | 230           | 2          | ID: 398 (wyd: 265 m3/h, 2U, koszt: 281)
-913        | 360           | 4          | ID: 2125 (wyd: 540 m3/h, 4U, koszt: 543)
-914        | 360           | 4          | ID: 2682 (wyd: 560 m3/h, 4U, koszt: 614)
-915        | 330           | 3          | BRAK
-916        | 150           | 2          | ID: 990 (wyd: 165 m3/h, 2U, koszt: 211)
-917        | 70            | 1          | ID: 2228 (wyd: 60 m3/h, 1U, koszt: 75)
-918        | 110           | 2          | ID: 1873 (wyd: 175 m3/h, 2U, koszt: 221)
-919        | 500           | 4          | ID: 608 (wyd: 700 m3/h, 4U, koszt: 723)
-920        | 70            | 1          | ID: 441 (wyd: 60 m3/h, 1U, koszt: 90)
-921        | 100           | 1          | ID: 1832 (wyd: 125 m3/h, 1U, koszt: 209)
-922        | 210           | 2          | ID: 2847 (wyd: 270 m3/h, 2U, koszt: 275)
-923        | 280           | 3          | ID: 1738 (wyd: 205 m3/h, 2U, koszt: 214)
-924        | 60            | 1          | BRAK
-925        | 220           | 2          | ID: 1398 (wyd: 275 m3/h, 2U, koszt: 369)
-926        | 310           | 3          | ID: 2855 (wyd: 50 m3/h, 1U, koszt: 59)
-927        | 80            | 1          | BRAK
-928        | 90            | 1          | ID: 2853 (wyd: 75 m3/h, 1U, koszt: 112)
-929        | 40            | 1          | ID: 721 (wyd: 80 m3/h, 1U, koszt: 105)
-930        | 70            | 1          | BRAK
-931        | 120           | 2          | ID: 478 (wyd: 205 m3/h, 2U, koszt: 233)
-932        | 40            | 1          | BRAK
-933        | 120           | 2          | ID: 1550 (wyd: 185 m3/h, 2U, koszt: 247)
-934        | 250           | 3          | ID: 1315 (wyd: 145 m3/h, 2U, koszt: 163)
-935        | 90            | 1          | BRAK
-936        | 90            | 1          | ID: 1572 (wyd: 120 m3/h, 1U, koszt: 152)
-937        | 100           | 1          | BRAK
-938        | 300           | 3          | ID: 1709 (wyd: 360 m3/h, 3U, koszt: 376)
-939        | 60            | 1          | ID: 1472 (wyd: 65 m3/h, 1U, koszt: 82)
-940        | 260           | 3          | ID: 2373 (wyd: 310 m3/h, 3U, koszt: 359)
-941        | 220           | 3          | ID: 1438 (wyd: 275 m3/h, 3U, koszt: 375)
-942        | 500           | 4          | ID: 1620 (wyd: 440 m3/h, 4U, koszt: 484)
-943        | 290           | 3          | ID: 798 (wyd: 190 m3/h, 2U, koszt: 224)
-944        | 120           | 1          | BRAK
-945        | 180           | 2          | ID: 1161 (wyd: 245 m3/h, 2U, koszt: 323)
-946        | 190           | 2          | ID: 736 (wyd: 125 m3/h, 1U, koszt: 151)
-947        | 40            | 1          | BRAK
-948        | 280           | 3          | ID: 2436 (wyd: 365 m3/h, 3U, koszt: 402)
-949        | 90            | 1          | BRAK
-950        | 170           | 2          | ID: 1250 (wyd: 200 m3/h, 2U, koszt: 203)
-951        | 240           | 3          | ID: 40 (wyd: 385 m3/h, 3U, koszt: 434)
-952        | 140           | 2          | ID: 2551 (wyd: 180 m3/h, 2U, koszt: 199)
-953        | 120           | 1          | BRAK
-954        | 230           | 3          | ID: 1514 (wyd: 270 m3/h, 3U, koszt: 285)
-955        | 330           | 3          | ID: 70 (wyd: 240 m3/h, 2U, koszt: 300)
-956        | 110           | 1          | BRAK
-957        | 40            | 1          | ID: 357 (wyd: 115 m3/h, 1U, koszt: 148)
-958        | 110           | 1          | ID: 796 (wyd: 135 m3/h, 1U, koszt: 155)
-959        | 80            | 1          | BRAK
-960        | 60            | 1          | ID: 1967 (wyd: 55 m3/h, 1U, koszt: 95)
-961        | 180           | 2          | ID: 1582 (wyd: 150 m3/h, 2U, koszt: 162)
-962        | 40            | 1          | ID: 2587 (wyd: 90 m3/h, 1U, koszt: 94)
-963        | 200           | 3          | ID: 91 (wyd: 420 m3/h, 3U, koszt: 419)
-964        | 100           | 1          | ID: 2460 (wyd: 120 m3/h, 1U, koszt: 121)
-965        | 70            | 1          | ID: 2884 (wyd: 50 m3/h, 1U, koszt: 56)
-966        | 150           | 2          | ID: 389 (wyd: 185 m3/h, 2U, koszt: 239)
-967        | 540           | 4          | ID: 1747 (wyd: 495 m3/h, 4U, koszt: 538)
-968        | 110           | 2          | ID: 85 (wyd: 95 m3/h, 1U, koszt: 153)
-969        | 480           | 4          | ID: 902 (wyd: 510 m3/h, 4U, koszt: 509)
-970        | 150           | 2          | ID: 1459 (wyd: 250 m3/h, 2U, koszt: 286)
-971        | 510           | 4          | ID: 2423 (wyd: 505 m3/h, 4U, koszt: 617)
-972        | 40            | 1          | ID: 133 (wyd: 70 m3/h, 1U, koszt: 74)
-973        | 340           | 3          | ID: 1201 (wyd: 170 m3/h, 2U, koszt: 220)
-974        | 360           | 4          | ID: 946 (wyd: 415 m3/h, 4U, koszt: 438)
-975        | 390           | 4          | ID: 278 (wyd: 555 m3/h, 4U, koszt: 563)
-976        | 160           | 2          | ID: 624 (wyd: 140 m3/h, 2U, koszt: 194)
-977        | 250           | 3          | BRAK
-978        | 40            | 1          | ID: 651 (wyd: 55 m3/h, 1U, koszt: 67)
-979        | 40            | 1          | BRAK
-980        | 360           | 4          | ID: 89 (wyd: 445 m3/h, 4U, koszt: 490)
-981        | 340           | 3          | ID: 1604 (wyd: 335 m3/h, 3U, koszt: 407)
-982        | 300           | 3          | ID: 531 (wyd: 220 m3/h, 2U, koszt: 255)
-983        | 130           | 2          | BRAK
-984        | 130           | 2          | ID: 1617 (wyd: 150 m3/h, 2U, koszt: 158)
-985        | 130           | 2          | ID: 199 (wyd: 200 m3/h, 2U, koszt: 227)
-986        | 70            | 1          | ID: 2811 (wyd: 50 m3/h, 1U, koszt: 78)
-987        | 100           | 1          | ID: 1787 (wyd: 125 m3/h, 1U, koszt: 128)
-988        | 340           | 3          | ID: 2141 (wyd: 235 m3/h, 2U, koszt: 236)
-989        | 130           | 2          | ID: 280 (wyd: 240 m3/h, 2U, koszt: 310)
-990        | 60            | 1          | BRAK
-991        | 210           | 2          | ID: 2547 (wyd: 260 m3/h, 2U, koszt: 334)
-992        | 40            | 1          | ID: 1050 (wyd: 100 m3/h, 1U, koszt: 131)
-993        | 310           | 3          | ID: 2207 (wyd: 265 m3/h, 2U, koszt: 314)
-994        | 50            | 1          | BRAK
-995        | 420           | 4          | ID: 2059 (wyd: 580 m3/h, 4U, koszt: 648)
-996        | 40            | 1          | ID: 2386 (wyd: 105 m3/h, 1U, koszt: 184)
-997        | 90            | 1          | ID: 187 (wyd: 120 m3/h, 1U, koszt: 136)
-998        | 50            | 1          | BRAK
-999        | 150           | 2          | ID: 33 (wyd: 70 m3/h, 1U, koszt: 94)
-1000       | 330           | 3          | ID: 2966 (wyd: 445 m3/h, 3U, koszt: 479)
+95         | 450           | 4          | ID: 76 (wyd: 250 m3/h, 3U, koszt: 280)
+96         | 320           | 4          | ID: 204 (wyd: 240 m3/h, 2U, koszt: 257)
+97         | 220           | 2          | BRAK
+98         | 210           | 2          | BRAK
+99         | 330           | 3          | BRAK
+100        | 430           | 4          | BRAK
 -----------------------------------------------------------------
-Obsadzono pomieszczeń: 764 / 1000
+Obsadzono pomieszczeń: 20 / 100
 =================================================================

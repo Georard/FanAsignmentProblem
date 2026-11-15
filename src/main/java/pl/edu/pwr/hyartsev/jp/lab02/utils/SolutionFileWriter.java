@@ -7,6 +7,7 @@ import pl.edu.pwr.hyartsev.jp.lab02.data.Room;
 import pl.edu.pwr.hyartsev.jp.lab02.solver.AssignmentState;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
@@ -78,6 +79,6 @@ public class SolutionFileWriter {
 
     public static void writeToFile(String filePath, AssignmentState solution, Criterion criterion) throws IOException {
         String report = formatReport(solution, criterion);
-        Files.writeString(Paths.get(filePath), report);
+        Files.writeString(Paths.get(filePath), report, StandardCharsets.UTF_8);
     }
 }

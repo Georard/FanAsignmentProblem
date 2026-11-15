@@ -4,6 +4,7 @@ import pl.edu.pwr.hyartsev.jp.lab02.data.Fan;
 import pl.edu.pwr.hyartsev.jp.lab02.data.Room;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
@@ -19,7 +20,7 @@ public class DataFilesReader {
      */
     public static List<Room> readRooms(String filePath) throws IOException {
         List<Room> rooms = new ArrayList<>();
-        List<String> lines = Files.readAllLines(Paths.get(filePath));
+        List<String> lines = Files.readAllLines(Paths.get(filePath), StandardCharsets.UTF_8);
         for (String line : lines) {
             line = line.trim();
             if (line.isEmpty() || line.startsWith("#")) continue;
@@ -39,7 +40,7 @@ public class DataFilesReader {
      */
     public static List<Fan> readFans(String filePath) throws IOException {
         List<Fan> fans = new ArrayList<>();
-        List<String> lines = Files.readAllLines(Paths.get(filePath));
+        List<String> lines = Files.readAllLines(Paths.get(filePath), StandardCharsets.UTF_8);
         for (String line : lines) {
             line = line.trim();
             if (line.isEmpty() || line.startsWith("#")) continue;
